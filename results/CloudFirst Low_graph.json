@@ -1,0 +1,4811 @@
+{
+  "entities": [
+    {
+      "label": "Company",
+      "properties": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 1",
+        "title": "Politique de Sécurité de l’Information",
+        "version": "1.1",
+        "date": "March 2025",
+        "owner": "CTO / Security Lead"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 2",
+        "title": "Access Control Policy"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 3",
+        "title": "Data Protection & Backup Policy"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 4",
+        "title": "Incident Management Process"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 5",
+        "title": "Password Guidelines"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 6",
+        "title": "Change Management Policy"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 7",
+        "title": "Remote Access Procedure"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 8",
+        "title": "Business Continuity Summary"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 9",
+        "title": "Awareness & HR Security Notes"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 10",
+        "title": "Vendor Relationship & Subcontracting Policy"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "CTO / Security Lead"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "CloudFirst",
+        "activity": "protection of systems, customer data, and operations"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "AWS"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "Google Cloud"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "GitHub"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "Slack"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "Google Workspace"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "DevOps team",
+        "role": "coordinate daily security matters"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Security Lead"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "CTO"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Engineering Manager"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "employees"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "contractors"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "interns"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "external service providers"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "systems",
+        "classification": "CloudFirst"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "customer data",
+        "classification": "CloudFirst"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "operations",
+        "classification": "CloudFirst"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "SaaS environments",
+        "classification": "CloudFirst"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "internal tools",
+        "classification": "CloudFirst"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "vulnerabilities",
+        "level": "critical"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "incidents",
+        "level": "critical"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "Unknown"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Users"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "senior developers"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "engineers"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Employees"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "cloud databases",
+        "description": "Confidential customer data",
+        "classification": "Confidential"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "AWS GuardDuty",
+        "use": "Monitoring"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "default encryption",
+        "use": "encryption"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "No formal audit trail for all operations on production data",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Backups integrity not regularly verified",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "No ticketing workflow for security incidents reported on Slack",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Least Privilege",
+        "requirement": "Users are expected to have only the access necessary for their role"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Shared Responsibility",
+        "requirement": "Security is considered everyone’s concern"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Continuous Improvement",
+        "requirement": "Policies are revised 'as needed,' often after an issue arises"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "Security Principles Document"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "Access Control Policy",
+        "version": "1.0",
+        "date": "January 2025",
+        "owner": "Security Lead"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "HR"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Google Workspace"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Slack"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "user accounts",
+        "description": "user accounts and permissions"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "production access"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "development-level access"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "unauthorized access",
+        "level": "reasonable"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "approval workflows"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Google Workspace",
+        "use": "single sign-on"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "MFA",
+        "use": "authentication for administrative accounts"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "CI/CD tools",
+        "use": "development"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Password policy",
+        "use": "enforce minimum length"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "1Password",
+        "use": "shared vault"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "shared credentials",
+        "description": "internal services credentials",
+        "classification": "Unknown"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Access reviews",
+        "requirement": "performed occasionally"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "Unknown",
+        "sector": "Unknown"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Audit logging",
+        "requirement": "not enabled"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Admin credentials",
+        "description": "stored in 1Password",
+        "classification": "Unknown"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "root AWS credentials",
+        "description": "known by co-founders",
+        "classification": "Unknown"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Just-In-Time (JIT)",
+        "use": "Privileged Access Management"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Privileged Access Management",
+        "use": "Unknown"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "administrative accounts"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "co-founders"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "MFA not enforced for all users",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Password complexity not enforced on every third-party service",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Incomplete documentation of group rights",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Shared credentials for internal services without full audit logging",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "No formal quarterly access review process",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Root AWS credentials known by multiple individuals",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "No Just-In-Time or Privileged Access Management",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Data Protection & Backup Policy",
+        "version": "1.2",
+        "date": "February 2025",
+        "owner": "Head of Engineering"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "ISO 27001",
+        "type": "Standard",
+        "use": "alignment"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Annex A.9"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "clients"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "data",
+        "description": "données clients, credentials, secrets d’API",
+        "classification": "Confidentielles"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "data",
+        "description": "documentation technique, code source",
+        "classification": "Internes"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "data",
+        "description": "pages marketing, communications externes",
+        "classification": "Publiques"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Privileged Access Management (PAM) solution"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Head of Engineering"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "AWS"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "S3",
+        "use": "storage"
+      }
+    },
+    {
+      "label": "Algorithm",
+      "properties": {
+        "name": "AES-256",
+        "use": "encryption"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Terraform",
+        "use": "deployment scripts"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "backup",
+        "description": "daily backups"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "AWS-KMS",
+        "use": "encryption key management"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "AWS-KMS",
+        "use": "key management"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "responsable technique"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "no immutable storage strategy",
+        "level": "unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "no formal RTO/RPO defined",
+        "level": "unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "no manual key rotation",
+        "level": "unknown"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "service",
+        "description": "service restoration"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 4",
+        "title": "Incident Management Process",
+        "version": "1.0",
+        "date": "December 2024",
+        "owner": "CTO / Engineering Manager"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "AWS"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "Stripe"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "production environments",
+        "description": "environments hosted in AWS"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "staging environments",
+        "description": "environments hosted in AWS"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "SaaS services",
+        "description": "GitHub, Slack, Google Workspace, and Stripe"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "internal laptops",
+        "description": "used to deploy code or manage infrastructure"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "security incidents and system disruptions affecting service availability, confidentiality, or integrity",
+        "level": "unknown"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "Incident Management Process",
+        "type": "process",
+        "use": "detect, report, and resolve issues"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Developers"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Support team"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "AWS CloudWatch"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "GitHub Security tab"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "shared Google Doc"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Jira"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "PagerDuty"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 5",
+        "title": "Password Guidelines",
+        "version": "1.0",
+        "date": "January 2025",
+        "owner": "Security Lead"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "email"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Slack Connect"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "status page"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "update mechanism"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Notion"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "lessons learned"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "RCA (Root Cause Analysis)"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "employés"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "partenaires"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "prestataires"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "systems",
+        "description": "CloudFirst systems"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "accès non autorisés",
+        "level": "minimal"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Password Guidelines"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "1Password",
+        "use": "password storage"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Slack",
+        "use": "communication"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "password",
+        "description": "critical passwords (root, admin accounts)",
+        "classification": "critical"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Password complexity requirement",
+        "requirement": "at least 8 characters, including one uppercase letter and one digit"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Password change policy",
+        "requirement": "change at account creation, discretionary thereafter"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Password storage policy",
+        "requirement": "critical passwords stored in 1Password"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "sharing passwords via Slack",
+        "level": "high"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "lack of automatic monitoring for password sharing practices",
+        "level": "medium"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "no enforced password rotation policy",
+        "level": "medium"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "founders"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "users"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "CloudFirst",
+        "activity": "technical and configuration changes management"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 6",
+        "title": "Change Management Policy",
+        "version": "1.1",
+        "date": "March 2025",
+        "owner": "Engineering Manager"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "Change Advisory Board",
+        "acronyme": "CAB"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Multi-Factor Authentication",
+        "use": "authentication"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "tokens"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "clés API"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "comptes administrateurs AWS",
+        "classification": "account"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "comptes utilisateurs",
+        "classification": "account"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "production environments",
+        "classification": "environment"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "staging environments",
+        "classification": "environment"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "infrastructure updates",
+        "classification": "update"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "code deployments",
+        "classification": "deployment"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "network configuration",
+        "classification": "configuration"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "SOC 2",
+        "type": "certification"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "audit interne des pratiques de mot de passe"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "administrateurs AWS"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "utilisateurs"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "peer"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "GitHub"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "staging"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "production"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "CI/CD"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "change request"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "system-level patches"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "configuration flags"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "monitoring rules"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Git commit messages"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "central log of changes"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "Git commit messages"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "Notion summaries"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 7",
+        "title": "Remote Access Procedure",
+        "version": "1.0",
+        "date": "April 2025",
+        "owner": "CTO"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "OpenVPN",
+        "use": "VPN for remote access"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "AWS EC2",
+        "use": "Hosting VPN"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "TLS",
+        "use": "Encryption"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "SSH",
+        "use": "Direct connections"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Environment",
+        "description": "AWS environments"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Environment",
+        "description": "GitHub"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Environment",
+        "description": "Intranet interne"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Device",
+        "description": "Postes personnels"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Risks of unauthorized access",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Certificates not renewed automatically",
+        "level": "Unknown"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "Employees"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "Prestataires"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "VPN",
+        "use": "remote access"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "split-tunneling",
+        "use": "VPN configuration"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "risks associated with split-tunneling",
+        "level": "known"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "authentification multifacteur"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "certificat client",
+        "use": "VPN authentication"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "équipe DevOps"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "manager"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "BitLocker",
+        "use": "disk encryption"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "FileVault",
+        "use": "disk encryption"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "politique centralisée de chiffrement des disques"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "verrouillage automatique"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "contrôle de conformité avant connexion"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "présent document",
+        "owner": "unknown"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "disques",
+        "description": "disques des postes",
+        "classification": "unknown"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "postes",
+        "description": "postes de travail",
+        "classification": "unknown"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "logs",
+        "description": "logs des connexions VPN",
+        "classification": "unknown"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "rapport mensuel d’accès distant",
+        "description": "rapport d’accès distant",
+        "classification": "unknown"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "CloudFirst",
+        "activity": "cloud services"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 8",
+        "title": "Business Continuity Summary",
+        "version": "0.9",
+        "date": "December 2024",
+        "owner": "CTO"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "AWS",
+        "use": "production systems hosting"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Google Cloud",
+        "use": "production systems hosting"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "CI/CD pipelines",
+        "use": "software development and deployment"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "GitHub",
+        "use": "critical SaaS service"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Slack",
+        "use": "critical SaaS service"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Google Workspace",
+        "use": "critical SaaS service"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "production systems",
+        "description": "hosted on AWS and Google Cloud"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "CI/CD pipelines",
+        "description": "software development and deployment pipelines"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "critical SaaS services",
+        "description": "GitHub, Slack, Google Workspace"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "service disruptions",
+        "level": "major incidents"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 9",
+        "title": "Awareness & HR Security Notes",
+        "version": "1.1",
+        "date": "February 2025",
+        "owner": "HR Manager / Security Lead"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Engineering leads"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "support team"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "HR Manager"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "incident management tools"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "monitoring tools"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "BCP/DRP document",
+        "title": "BCP/DRP document",
+        "date": "2026"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "ourds"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "clause de confidentialité",
+        "description": "clause de confidentialité à l'embauche"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "nouveaux collaborateurs"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "règles de sécurité de base"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "onboarding technique"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "session de formation à la sécurité"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Slack",
+        "use": "canal de signalement"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "information",
+        "classification": "confidentielle"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "absence de vérification d’antécédents systématique",
+        "level": "moyen"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "absence de test d’évaluation et suivi individuel",
+        "level": "moyen"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "absence de procédure formelle de déclaration d’incident interne",
+        "level": "moyen"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "sanctions disciplinaires potentielles non définies",
+        "level": "moyen"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "CloudFirst",
+        "activity": "vendor and subcontractor management"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "Google"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "VPN"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT 10",
+        "title": "Vendor Relationship & Subcontracting Policy",
+        "version": "1.0",
+        "date": "November 2024",
+        "owner": "Operations Lead"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "SOC 2",
+        "type": "compliance",
+        "use": "audit"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "e-learning",
+        "requirement": "compliance training"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "annual HR audit",
+        "requirement": "SOC 2 compliance"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "automated procedure",
+        "use": "access deactivation"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Operations Lead"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "access",
+        "description": "Google Workspace access"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "access",
+        "description": "GitHub access"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "access",
+        "description": "VPN access"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "limited security diligence due to resource constraints",
+        "level": "unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "no central vendor inventory",
+        "level": "unknown"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "vendor selection criteria",
+        "description": "Vendors are selected primarily based on price, functionality, and ease of integration"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "security questionnaires",
+        "description": "Security questionnaires are requested only for high-impact providers"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "confidentiality clauses"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "Data Processing Agreements",
+        "type": "DPA"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "security annexes",
+        "type": "template"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "availability risk",
+        "level": "basic"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "data-storage location risk",
+        "level": "basic"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "type": "credentials"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "type": "API keys"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "residual data"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "SOC 2",
+        "type": "compliance"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "ISO 27001",
+        "type": "compliance"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "vendor"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "rst"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT 1"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT 2"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT 3"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT 4"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT 5"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT 6"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT 7"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT 8"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT 9"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT 10"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DOCUMENT 1"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "CTO / Security Lead"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "DevOps team"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "DevOps team"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Security Lead"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "employees"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "contractors"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "interns"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "external service providers"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "employees"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systems"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "employees"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "customer data"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "employees"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "operations"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "employees"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "SaaS environments"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "employees"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "internal tools"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "contractors"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systems"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "contractors"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "customer data"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "contractors"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "operations"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "contractors"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "SaaS environments"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "contractors"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "internal tools"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "interns"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systems"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "interns"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "customer data"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "interns"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "operations"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "interns"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "SaaS environments"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "interns"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "internal tools"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "external service providers"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systems"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "external service providers"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "customer data"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "external service providers"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "operations"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "external service providers"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "SaaS environments"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "external service providers"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "internal tools"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "DevOps team"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "CTO"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "DevOps team"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Engineering Manager"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "vulnerabilities"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systems"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "vulnerabilities"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "customer data"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "vulnerabilities"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "operations"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "incidents"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systems"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "incidents"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "customer data"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "incidents"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "operations"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "Use",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "AWS agreement"
+      }
+    },
+    {
+      "from_label": "Agreement",
+      "from_key": {
+        "name": "AWS agreement"
+      },
+      "rel_type": "for",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "AWS"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "Use",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "Google Cloud agreement"
+      }
+    },
+    {
+      "from_label": "Agreement",
+      "from_key": {
+        "name": "Google Cloud agreement"
+      },
+      "rel_type": "for",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "Google Cloud"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "Use",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "GitHub agreement"
+      }
+    },
+    {
+      "from_label": "Agreement",
+      "from_key": {
+        "name": "GitHub agreement"
+      },
+      "rel_type": "for",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "GitHub"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "Use",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "Slack agreement"
+      }
+    },
+    {
+      "from_label": "Agreement",
+      "from_key": {
+        "name": "Slack agreement"
+      },
+      "rel_type": "for",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "Slack"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "Use",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "Google Workspace agreement"
+      }
+    },
+    {
+      "from_label": "Agreement",
+      "from_key": {
+        "name": "Google Workspace agreement"
+      },
+      "rel_type": "for",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "Google Workspace"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Users"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "senior developers"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "engineers"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Employees"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "cloud databases"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Users"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "default encryption"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "engineers"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "cloud databases"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "default encryption"
+      },
+      "rel_type": "used_by",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "cloud databases"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "No formal audit trail for all operations on production data"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "cloud databases"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Backups integrity not regularly verified"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "cloud databases"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Least Privilege"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Shared Responsibility"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Continuous Improvement"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "title": "Security Principles Document"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Employees"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Shared Responsibility"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "title": "Access Control Policy"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "title": "Access Control Policy"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Security Lead"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "title": "Access Control Policy"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Engineering Manager"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "title": "Access Control Policy"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "HR"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Security Lead"
+      },
+      "rel_type": "operates",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "production access"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Engineering Manager"
+      },
+      "rel_type": "operates",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "development-level access"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "HR"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Google Workspace"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "HR"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "user accounts"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "unauthorized access"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "user accounts"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "approval workflows"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "unauthorized access"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Slack"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "user accounts"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Google Workspace"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "MFA"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "Password policy"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "AWS"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "GitHub"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "1Password"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "shared credentials"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Access reviews"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "Unknown"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Audit logging"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Admin credentials"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "root AWS credentials"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "Use",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "Just-In-Time (JIT)"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "Use",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "Privileged Access Management"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "MFA not enforced for all users"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "user accounts"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Password complexity not enforced on every third-party service"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "user accounts"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Incomplete documentation of group rights"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "group-based roles"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Shared credentials for internal services without full audit logging"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "shared credentials"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "No formal quarterly access review process"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "user access"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Root AWS credentials known by multiple individuals"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "root AWS credentials"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "No Just-In-Time or Privileged Access Management"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Admin credentials"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "administrative accounts"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Google Workspace"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "administrative accounts"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "AWS"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "administrative accounts"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GitHub"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "co-founders"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "root AWS credentials"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "1Password"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Admin credentials"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "1Password"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "shared credentials"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "Data Protection & Backup Policy"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "clients"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Annex A.9"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Annex A.9"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "Data Protection & Backup Policy"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "data",
+        "classification": "Confidentielles"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "Data Protection & Backup Policy"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "data",
+        "classification": "Internes"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "Data Protection & Backup Policy"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "data",
+        "classification": "Publiques"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Head of Engineering"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Privileged Access Management (PAM) solution"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "AWS"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "S3"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "S3"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "backup"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "AES-256"
+      },
+      "rel_type": "protects",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "S3"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Terraform"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "backup"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "AWS-KMS"
+      },
+      "rel_type": "used_by",
+      "to_label": "Algorithm",
+      "to_key": {
+        "name": "AES-256"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "AWS-KMS"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "no manual key rotation"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "no immutable storage strategy"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "backup"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "no formal RTO/RPO defined"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "service"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "responsable technique"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "restoration procedure"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "AWS"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "GitHub"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "Slack"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "Google Workspace"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "Stripe"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "CTO"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Engineering Manager"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "security incidents and system disruptions affecting service availability, confidentiality, or integrity"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "production environments"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "security incidents and system disruptions affecting service availability, confidentiality, or integrity"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "staging environments"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "security incidents and system disruptions affecting service availability, confidentiality, or integrity"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "SaaS services"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "security incidents and system disruptions affecting service availability, confidentiality, or integrity"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "internal laptops"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "Incident Management Process"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "unknown"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Developers"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "AWS CloudWatch"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Developers"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GitHub Security tab"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Developers"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Slack"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "engineers"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Slack"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Developers"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Support team"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "CTO"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "title": "shared Google Doc"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Support team"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Slack"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "email"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Slack Connect"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "title": "lessons learned"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "CTO"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "title": "lessons learned"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Security Lead"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "partenaires"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "prestataires"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "partenaires"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "prestataires"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "employés"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "email"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "employés"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Slack Connect"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "partenaires"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systems"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "prestataires"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systems"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "employés"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systems"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "accès non autorisés"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systems"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Password Guidelines"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "accès non autorisés"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "password"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Password complexity requirement"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Password change policy"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Password storage policy"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Password storage policy"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "1Password"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "sharing passwords via Slack"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "password"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "lack of automatic monitoring for password sharing practices"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "password"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "no enforced password rotation policy"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "password"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "founders"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "password"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "engineers"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "password"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "users"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "1Password"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "has_requirement": "Clause",
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "activation MFA obligatoire pour comptes administrateurs AWS"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "has_requirement": "Clause",
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "migration vers authentification forte"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "has_requirement": "Clause",
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "audit interne des pratiques de mot de passe"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Multi-Factor Authentication"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes administrateurs AWS"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Multi-Factor Authentication"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateurs"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "administrateurs AWS"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Multi-Factor Authentication"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "utilisateurs"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Multi-Factor Authentication"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "production environments"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "staging environments"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "SOC 2"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "audit interne des pratiques de mot de passe"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "audit interne des pratiques de mot de passe"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Engineering Manager"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Developers"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GitHub"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "peer"
+      },
+      "rel_type": "approves",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "change request"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Engineering Manager"
+      },
+      "rel_type": "approves",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "change request"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "staging"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "change request"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "production"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "configuration flags"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "production"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "monitoring rules"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "CI/CD"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "previous version"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "title": "Git commit messages"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "title": "Notion summaries"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "OpenVPN"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "AWS environments"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "AWS EC2"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "AWS environments"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "TLS"
+      },
+      "rel_type": "protects",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "AWS environments"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "SSH"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "AWS environments"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Risks of unauthorized access"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "AWS environments"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Risks of unauthorized access"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "GitHub"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Risks of unauthorized access"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "Intranet interne"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Certificates not renewed automatically"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "AWS environments"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "Employees"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "Prestataires"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "VPN"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "postes"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "split-tunneling"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "postes"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "risks associated with split-tunneling"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "postes"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "authentification multifacteur"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "risks associated with VPN access"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "certificat client"
+      },
+      "rel_type": "protects",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "postes"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "équipe DevOps"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "VPN"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "manager"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "VPN"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "BitLocker"
+      },
+      "rel_type": "protects",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "disques"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "FileVault"
+      },
+      "rel_type": "protects",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "disques"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "politique centralisée de chiffrement des disques"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "BitLocker"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "politique centralisée de chiffrement des disques"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "FileVault"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "verrouillage automatique"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "OS native tools"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "contrôle de conformité avant connexion"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "unknown"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "title": "présent document"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "unknown"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "production systems"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "CI/CD pipelines"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "critical SaaS services"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "AWS"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "Google Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "service disruptions"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "production systems"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "service disruptions"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "CI/CD pipelines"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "service disruptions"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "critical SaaS services"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "CTO"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "AWS"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "CTO"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Google Cloud"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Engineering leads"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "support team"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "HR Manager"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Engineering leads"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "incident management tools"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Engineering leads"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "monitoring tools"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "BCP/DRP document"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ourds"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "clause de confidentialité"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "nouveaux collaborateurs"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "clause de confidentialité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ourds"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "manager"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ourds"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "title": "règles de sécurité de base"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ourds"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "onboarding technique"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "onboarding technique"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Document",
+      "to_key": {
+        "title": "règles de sécurité de base"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ourds"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "session de formation à la sécurité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ourds"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Slack"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "absence de vérification d’antécédents systématique"
+      },
+      "rel_type": "targeting",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "nouveaux collaborateurs"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "absence de test d’évaluation et suivi individuel"
+      },
+      "rel_type": "targeting",
+      "to_label": "Control",
+      "to_key": {
+        "name": "session de formation à la sécurité"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "absence de procédure formelle de déclaration d’incident interne"
+      },
+      "rel_type": "targeting",
+      "to_label": "Company",
+      "to_key": {
+        "name": "ourds"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "sanctions disciplinaires potentielles non définies"
+      },
+      "rel_type": "targeting",
+      "to_label": "Company",
+      "to_key": {
+        "name": "ourds"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Operations Lead"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "Google"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "vendor selection criteria"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "security questionnaires"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "Google"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "security questionnaires"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "GitHub"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "security questionnaires"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "Google Workspace access"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "GitHub access"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "VPN access"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "automated procedure"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "limited security diligence due to resource constraints"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "limited security diligence due to resource constraints"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "Google Workspace access"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "limited security diligence due to resource constraints"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "GitHub access"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "limited security diligence due to resource constraints"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "description": "VPN access"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "no central vendor inventory"
+      },
+      "rel_type": "targeting",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "SOC 2"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "e-learning"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "SOC 2"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "annual HR audit"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Operations Lead"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "e-learning"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Operations Lead"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "annual HR audit"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "confidentiality clauses"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "Use",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "Data Processing Agreements"
+      }
+    },
+    {
+      "from_label": "Agreement",
+      "from_key": {
+        "name": "Data Processing Agreements"
+      },
+      "rel_type": "for",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "vendor"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "vendor"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "confidentiality clauses"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "availability risk"
+      },
+      "rel_type": "targeting",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "vendor"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "data-storage location risk"
+      },
+      "rel_type": "targeting",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "vendor"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "CTO"
+      },
+      "rel_type": "supervise",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "vendor"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "type": "credentials"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "CloudFirst"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "type": "API keys"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "vendor"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "residual data"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "SOC 2"
+      },
+      "rel_type": "required_by",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Company",
+      "to_key": {
+        "name": "CloudFirst"
+      }
+    }
+  ]
+}

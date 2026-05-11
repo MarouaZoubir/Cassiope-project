@@ -1,0 +1,15 @@
+﻿control_id,slot_key,round_1,round_2,round_3,consistency
+ACH-01,critical_suppliers,unanswerable,answerable,unanswerable,inconsistent
+ACH-01,providers_list_only,unanswerable,answerable,unanswerable,inconsistent
+ACH-01,security_clauses_subcontracts,unanswerable,answerable,unanswerable,inconsistent
+ACH-01,tprm_process,unanswerable,answerable,unanswerable,inconsistent
+ACH-02,breach_notification,unanswerable,answerable,unanswerable,inconsistent
+ACH-02,nda_only,answerable,unanswerable,unanswerable,inconsistent
+ACH-02,right_to_audit,unanswerable,answerable,unanswerable,inconsistent
+ACH-02,security_clauses,unanswerable,answerable,unanswerable,inconsistent
+DATA-01,hsts,unanswerable,answerable,answerable,inconsistent
+DATA-01,pfs,answerable,answerable,unanswerable,inconsistent
+DATA-01,tls_min_version,answerable,answerable,answerable,stable_answerable
+DATA-02,algorithms,answerable,answerable,answerable,stable_answerable
+DATA-02,enc_present,answerable,answerable,answerable,stable_answerable
+DATA-02,key_rotation,answerable,answerable,answerable,stable_answerable

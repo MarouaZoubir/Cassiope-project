@@ -1,0 +1,152 @@
+﻿Control_ID;Control_Name;Slot_Key;Slot_Type;Enum_Values;Description_v3 (utilisé dans le Prompt d'extraction)
+ACH-01;Suivi sécurité des sous-traitants;critical_suppliers;bool;;"Set to true if the document shows that the evaluated entity maintains an explicit list or register of its own critical / high-risk suppliers and uses it for risk or security follow-up; set to false otherwise."
+ACH-01;Suivi sécurité des sous-traitants;providers_list_only;bool;;"Set to true if the document shows that the evaluated entity may only select subcontractors from a pre-approved list of providers (approved / whitelisted vendors); set to false otherwise."
+ACH-01;Suivi sécurité des sous-traitants;security_clauses_subcontracts;bool;;"Set to true if the document shows that subcontractor agreements used by the evaluated entity include explicit information-security clauses (requirements, obligations, controls); set to false otherwise."
+ACH-01;Suivi sécurité des sous-traitants;tprm_process;bool;;"Set to true if the document shows that the evaluated entity applies a formal, documented third-party risk management (TPRM) process to its own subcontractors (assessment, qualification, periodic review); set to false otherwise."
+ACH-02;Clauses sécurité dans les contrats avec les sous-traitants;breach_notification;bool;;"Set to true if the document shows that the evaluated entity requires its own subcontractors to notify it promptly of any security incident or data breach; set to false otherwise."
+ACH-02;Clauses sécurité dans les contrats avec les sous-traitants;nda_only;bool;;"Set to true if the document shows that the only security-related contractual protection used by the evaluated entity in its contracts with subcontractors is a basic NDA or confidentiality clause, with no other explicit security clauses, audit rights, or breach-notification requirements; set to false otherwise."
+ACH-02;Clauses sécurité dans les contrats avec les sous-traitants;right_to_audit;bool;;"Set to true if the document shows that the evaluated entity contractually reserves the right to audit or assess its own subcontractors (on-site audits, remote assessments, access to security reports); set to false otherwise."
+ACH-02;Clauses sécurité dans les contrats avec les sous-traitants;security_clauses;bool;;"Set to true if the document shows that the evaluated entity includes explicit information-security clauses (requirements, controls, obligations) in the contracts it signs with its own subcontractors; set to false otherwise."
+DATA-01;Chiffrement en transit (TLS);hsts;bool;;"Set to true if the document shows that the evaluated entity enforces HTTP Strict Transport Security (HSTS) on its external web services (max-age directive, HTTPS-only enforcement); set to false otherwise."
+DATA-01;Chiffrement en transit (TLS);pfs;bool;;"Set to true if the document shows that the evaluated entity enforces Perfect Forward Secrecy (PFS) for its TLS connections (e.g., ECDHE or DHE key exchange); set to false otherwise."
+DATA-01;Chiffrement en transit (TLS);tls_min_version;enum;1.0 | 1.1 | 1.2 | 1.3 | unknown;Set to the minimum TLS version enforced by the evaluated entity for all in-transit connections (e.g., TLS 1.2 or TLS 1.3). If the minimum version cannot be determined, set to “unknown”.
+DATA-02;Chiffrement au repos;algorithms;list[string];;List the encryption algorithms that the document shows are approved and used by the evaluated entity for data-at-rest encryption (for example AES-256). Leave the list empty if no algorithms are explicitly mentioned.
+DATA-02;Chiffrement au repos;enc_present;bool;;"Set to true if the document shows that data at rest managed by the evaluated entity is encrypted (for example full-disk, database or storage-level encryption); set to false otherwise."
+DATA-02;Chiffrement au repos;key_rotation;bool;;"Set to true if the document shows that cryptographic keys used for data-at-rest encryption are rotated on a regular basis according to a defined policy; set to false otherwise."
+DATA-02;Chiffrement au repos;kms;bool;;"Set to true if the document shows that a central Key Management Service (KMS or HSM-based service) is used to manage encryption keys for data at rest; set to false otherwise."
+DATA-02;Chiffrement au repos;scope;enum;all_data | prod_only | partial | unknown;Set to the scope of data-at-rest encryption implemented by the evaluated entity: all_data if all relevant data at rest is encrypted, prod_only if only production data is encrypted, partial if only some specific systems or datasets are encrypted, and unknown if the scope cannot be determined from the document.
+DATA-03;Sécurité email (SPF/DKIM/DMARC);alignment;enum;relaxed | strict | unknown;"Set to the alignment mode defined in the DMARC policy of the evaluated entity: ‘relaxed’ when alignment is described as “r” or default; ‘strict’ when it is explicitly described as “s”. If alignment cannot be determined, set to ‘unknown’."
+DATA-03;Sécurité email (SPF/DKIM/DMARC);dkim;enum;present | missing | unknown;Set to ‘present’ if the document explicitly states that DKIM is configured for the evaluated entity’s email domain(s). Set to ‘missing’ if the document explicitly states that DKIM is not configured. If the document does not provide clear information either way, set to ‘unknown’.
+DATA-03;Sécurité email (SPF/DKIM/DMARC);dmarc_policy;enum;none | quarantine | reject | planned | unknown;Set to the DMARC policy defined for the evaluated entity’s email domain(s): ‘none’, ‘quarantine’, or ‘reject’. Use ‘planned’ only if the document states a transition plan toward a stricter policy. Set to ‘unknown’ if the policy cannot be determined.
+DATA-03;Sécurité email (SPF/DKIM/DMARC);rua;enum;present | missing | unknown;Set to ‘present’ if a DMARC aggregate reporting address (tag RUA) is explicitly documented. Set to ‘missing’ if the document explicitly states that no aggregate reports are configured. If the document does not mention RUA, set to ‘unknown’.
+DATA-03;Sécurité email (SPF/DKIM/DMARC);ruf;enum;present | missing | unknown;Set to ‘present’ if a DMARC forensic reporting address (tag RUF) is explicitly documented. Set to ‘missing’ if the document explicitly states that no forensic reports are configured. If the document does not mention RUF, set to ‘unknown’.
+DATA-03;Sécurité email (SPF/DKIM/DMARC);spf;enum;present | missing | unknown;Set to ‘present’ if the document shows that SPF is published for the evaluated entity’s email domain(s). Set to ‘missing’ if the document explicitly states that SPF is not configured. If SPF is not mentioned at all, set to ‘unknown’.
+ENDP-01;Protection des postes et serveurs;edr_present;bool;;Set to true if the document shows that an Endpoint Detection and Response (EDR) or advanced endpoint protection agent is deployed on endpoints. Set to false otherwise.
+ENDP-01;Protection des postes et serveurs;edr_scope;enum;all_endpoints | servers_only | workstations_only | partial | unknown;"Set to the deployment scope of the EDR solution:
+– ‘all_endpoints’ if both servers and workstations are covered,
+– ‘servers_only’ if only servers are covered,
+– ‘workstations_only’ if only user endpoints are covered,
+– ‘partial’ if only specific subsets of endpoints are covered,
+– ‘unknown’ if the scope cannot be determined from the document."
+ENDP-01;Protection des postes et serveurs;edr_capabilities;list[string];;"List the EDR capabilities explicitly mentioned in the document, limited to the following categories:
+– ‘protection’ (for example malware prevention or endpoint protection),
+– ‘detection’ (for example behavioural or threat detection),
+– ‘remediation’ (for example isolation, quarantine or rollback).
+Only list capabilities that are explicitly stated; leave the list empty if none are mentioned."
+ENDP-01;Protection des postes et serveurs;edr_vendor_identified;bool;;Set to true if the document identifies the EDR vendor or product name (for example CrowdStrike, SentinelOne, Defender for Endpoint). Set to false otherwise.
+ENDP-02;Chiffrement disques postes;fde_scope;enum;all_workstations | partial | unknown;"Set to the deployment scope of full-disk encryption (FDE) on workstations:
+– ‘all_workstations’ if all workstations are encrypted,
+– ‘partial’ if only a subset of workstations are encrypted,
+– ‘unknown’ if the scope for workstations cannot be determined from the document."
+ENDP-02;Chiffrement disques postes;fde;bool;;Set to true if the document shows that full-disk encryption (FDE) is enabled on workstations. Set to false otherwise.
+ENDP-02;Chiffrement disques postes;recovery_key_mgmt;enum;centralized | local | unknown;"Set to ‘centralized’ if the document shows that recovery keys for full-disk encryption are automatically backed up or managed through a central system (for example Azure AD, Active Directory, MDM, or a centralized management console).
+Set to ‘local’ if recovery keys are stored manually or on each device without centralized management.
+Set to ‘unknown’ if the document does not provide sufficient information about recovery key management."
+ENDP-03;Durcissement des systèmes (Hardening);hardening_baseline;bool;;Set to true if the document shows that security hardening baselines or secure configuration standards are applied to systems. Set to false otherwise.
+ENDP-03;Durcissement des systèmes (Hardening);cis_or_vendor_standards;bool;;Set to true if the document shows that CIS Benchmarks or vendor-provided security baselines (Microsoft, Apple, Linux vendors) are used. Set to false otherwise.
+ENDP-03;Durcissement des systèmes (Hardening);local_admin_restrictions;bool;;Set to true if the document shows that local administrator rights are restricted or removed on systems. Set to false otherwise.
+ENDP-03;Durcissement des systèmes (Hardening);device_control;bool;;Set to true if the document shows that device control mechanisms (for example USB blocking or removable media control) are enforced. Set to false otherwise.
+ENDP-03;Durcissement des systèmes (Hardening);application_control;bool;;Set to true if the document shows that application allowlisting, denylisting or controlled execution policies are enforced. Set to false otherwise.
+ENDP-03;Durcissement des systèmes (Hardening);hardening_scope;enum;all_systems | workstations_only | servers_only | partial | unknown;"Set to the scope of system hardening:
+– ‘all_systems’ if both servers and workstations are covered,
+– ‘workstations_only’ if only workstations are covered,
+– ‘servers_only’ if only servers are covered,
+– ‘partial’ if only some systems are covered,
+– ‘unknown’ if the scope cannot be determined."
+GOV-01;Politique de sécurité;isp_present;;;Set to true if the document explicitly shows that an Information Security Policy (ISP / Information Security Policy / Security Policy) exists and is formally documented. Set to false otherwise.
+GOV-01;Politique de sécurité;review_freq;enum;annual | biennial | quarterly | continuous | unknown;Set to the documented review frequency of the Information Security Policy: ‘annual’, ‘biennial’, ‘quarterly’, ‘continuous’, or ‘unknown’ if no frequency is specified.
+GOV-01;Politique de sécurité;owner_role;enum;ciso | cio | dpo | ceo | security_manager | unknown;"Set to the formally identified owner of the Information Security Policy:
+– ‘ciso’,
+– ‘cio’,
+– ‘dpo’,
+– ‘ceo’,
+– ‘security_manager’,
+– or ‘unknown’ if no owner is specified."
+GOV-01;Politique de sécurité;approved_by_management;bool;;Set to true if the document shows that the Information Security Policy is formally approved by top management or a governing authority. Set to false otherwise.
+GOV-02;RSSI (CISO);ciso_named;bool;;Set to true if the document explicitly names a CISO, RSSI, Head of Security or equivalent security leadership role. Set to false otherwise.
+GOV-02;RSSI (CISO);role_documented;bool;;Set to true if the responsibilities of the CISO/RSSI (or equivalent role) are formally documented in the provided material. Set to false otherwise.
+GOV-02;RSSI (CISO);security_responsibility_assigned;bool;;Set to true if the document shows that information security responsibility is formally assigned to a role or function (for example CISO, CIO, Security Manager). Set to false otherwise.
+GOV-02;RSSI (CISO);ciso_reports_to_management;bool;;Set to true if the document shows that the CISO/RSSI (or equivalent role) reports directly to top management or a senior leadership role (for example CEO, CIO, executive committee). Set to false otherwise.
+GOV-03;Analyse de risques;risk_assessment_regular;bool;;Set to true if the document shows that risk assessments are performed on a recurring or formal basis (for example annually, biennially, periodically or as part of a structured risk management cycle). Set to false otherwise.
+GOV-03;Analyse de risques;frequency;enum;annual | biennial | project_based | continuous | unknown;Set to the documented frequency of the risk assessment process: ‘annual’, ‘biennial’, ‘project_based’, ‘continuous’, or ‘unknown’ if no frequency is specified.
+GOV-03;Analyse de risques;methodology;enum;iso27005 | ebios | nist_sp800_30 | fair | custom | unknown;"Set to the methodology used for risk assessment:
+– ‘iso27005’ if ISO 27005 is referenced,
+– ‘ebios’ if EBIOS is referenced,
+– ‘nist_sp800_30’ if NIST SP 800-30 is referenced,
+– ‘fair’ if FAIR is referenced,
+– ‘custom’ if a proprietary or internal method is described,
+– ‘unknown’ if no method is mentioned."
+GOV-03;Analyse de risques;risks_identified_documented;bool;;Set to true if the document shows that risks are explicitly identified, described or categorized as part of the risk assessment. Set to false otherwise.
+GOV-03;Analyse de risques;register_present;bool;;Set to true if the document shows that a formal risk register exists and is maintained. Set to false otherwise.
+IAM-01;MFA;mfa_present;bool;;Set to true if the document shows that multi-factor authentication (MFA) is implemented for at least some systems or users. Set to false otherwise.
+IAM-01;MFA;mfa_scope;enum;none | admins_only | all_users | partial | unknown;"Set to the scope of MFA enforcement:
+– ‘all_users’ if MFA is required for all users (administrators included by definition),
+– ‘admins_only’ if MFA is required only for administrative or privileged accounts,
+– ‘partial’ if MFA applies only to specific systems or a subset of users,
+– ‘none’ if no MFA requirement is described,
+– ‘unknown’ if the document does not provide enough information."
+IAM-01;MFA;methods_strong;bool;;Set to true if MFA methods include strong factors such as TOTP, FIDO2, authenticator apps, or push notifications. Set to false if only weaker methods (e.g., SMS) are mentioned or if the document provides no detail.
+IAM-02;Cycle de vie des identités (JML);jml_process_defined;bool;;Set to true if the document shows that the Joiner-Mover-Leaver (JML) process is formally defined, documented or standardized, including creation, modification and removal of user accounts. Set to false otherwise.
+IAM-02;Cycle de vie des identités (JML);jml_automation_level;enum;manual | semi_automated | automated | unknown;"Set to the documented level of automation of user provisioning and deprovisioning:
+– ‘manual’ if operations are performed manually,
+– ‘semi_automated’ if workflows, ticketing systems or partial automation are used,
+– ‘automated’ if provisioning and deprovisioning are fully system-driven or integrated with HR systems,
+– ‘unknown’ if the document does not provide enough information."
+IAM-02;Cycle de vie des identités (JML);leaver_deprovisioning_timely;bool;;Set to true if the document shows that user access is revoked immediately or within a defined short timeframe upon a leaver event. Set to false otherwise.
+IAM-03;PAM / Comptes à privilèges;pam_present;bool;;"Set to true if the document shows that a Privileged Access Management (PAM) solution, password vault, or a bastion/jump server specifically used to secure privileged accounts or administrative sessions is in place.
+Ignore any reference to bastions used for remote network access."
+IAM-03;PAM / Comptes à privilèges;session_recording;bool;;Set to true if the document shows that privileged sessions are recorded, monitored, routed through a controlled component or subject to real-time oversight. Set to false otherwise.
+IAM-03;PAM / Comptes à privilèges;break_glass;bool;;Set to true if the document describes an emergency “break-glass” procedure providing exceptional access under controlled conditions (e.g., emergency admin account). Set to false otherwise.
+IAM-03;PAM / Comptes à privilèges;privileged_accounts_inventory;bool;;Set to true if the document shows that the organization maintains a formal inventory or register of privileged or administrative accounts. Set to false otherwise.
+NET-01;Pare‑feu & segmentation réseau;firewall_present;bool;;Set to true if the document shows that a network firewall (hardware, virtual, cloud-native) is deployed to control inbound or outbound traffic. Set to false otherwise.
+NET-01;Pare‑feu & segmentation réseau;fw_change_control;bool;;Set to true if the document describes a formal process for reviewing, approving or tracking firewall rule changes. Set to false otherwise. Do not consider generic IT change management unless it specifically covers firewall rules.
+NET-01;Pare‑feu & segmentation réseau;network_segmentation;bool;;Set to true if the document shows that the network is segmented using VLANs, subnets, security zones or equivalent logical separation. Set to false otherwise. Ignore mere mentions of different environments (DEV/TEST/PROD) without security segmentation.
+NET-01;Pare‑feu & segmentation réseau;ids_ips_present;bool;;Set to true if the document shows that IDS or IPS capabilities are deployed (network intrusion detection or prevention). Set to false otherwise.
+NET-02;Accès distant utilisateur sécurisé;mfa_remote;bool;;Set to true if the document shows that multi-factor authentication (MFA) is required for remote access (for example VPN, ZTNA, remote gateways). Set to false otherwise.
+NET-02;Accès distant utilisateur sécurisé;vpn_remote_present;bool;;Set to true if the document shows that remote access is provided through a VPN solution (for example IPsec VPN, SSL VPN, remote access VPN). Set to false otherwise.
+NET-02;Accès distant utilisateur sécurisé;ztna_remote_present;bool;;Set to true if the document shows that remote access is provided through a Zero Trust Network Access (ZTNA) solution, even if it is written in full (for example “Zero Trust Network Access”). Set to false otherwise.
+NET-02;Accès distant utilisateur sécurisé;remote_access_managed_devices_only;bool;;Set to true if the document shows that remote access for internal users is allowed only from managed or corporate devices (for example devices enrolled in MDM or compliant endpoints). Set to false otherwise.
+NET-02;Accès distant utilisateur sécurisé;allowed_locations_restricted;bool;;Set to true if the document shows that remote access is limited to specific IP ranges, networks or geolocations (for example IP whitelisting, geo-blocking, corporate networks only). Set to false otherwise.
+NET-03;Administration distante sécurisée;bastion_present;bool;;"Set to true if the document shows that remote administrative access must go through a dedicated bastion, jump host, or secure remote administration gateway. Set to false otherwise.
+Ignore user remote access and PAM internal access to privileged accounts."
+NET-03;Administration distante sécurisée;mfa_admin_remote;bool;;Set to true if the document shows that multi-factor authentication (MFA) is required to access the remote administration bastion or gateway. Set to false otherwise.
+NET-03;Administration distante sécurisée;admin_direct_access_allowed;bool;;"Set to true if the document shows that remote administrative access to systems is allowed directly (for example via VPN or public IP using SSH/RDP) without going through a bastion or controlled gateway. Set to false otherwise.
+This is a negative indicator."
+NET-03;Administration distante sécurisée;admin_session_recording;bool;;Set to true if the document shows that administrative sessions passing through the bastion or gateway are recorded or monitored (for example session recording, keystroke logging, screen capture). Set to false otherwise.
+OPS-01;Gestion des incidents (IRP);irp_present;bool;;Set to true if the document shows that a formal incident response plan (IRP) exists specifically for handling major cybersecurity incidents (for example breach, intrusion, ransomware, data compromise). Set to false otherwise.
+OPS-01;Gestion des incidents (IRP);incident_contacts_defined;bool;;Set to true if the document shows that designated contacts or escalation points for major cybersecurity incidents are explicitly defined. Set to false otherwise.
+OPS-01;Gestion des incidents (IRP);irp_tested;bool;;Set to true if the document shows that the incident response plan for major cybersecurity incidents is periodically tested (for example cyber crisis exercises, simulations, tabletop exercises). Set to false otherwise.
+OPS-01;Gestion des incidents (IRP);client_notification_commitments;bool;;Set to true if the document shows that the organization commits to notifying clients in case of a major cybersecurity incident affecting them. Set to false otherwise.
+OPS-01;Gestion des incidents (IRP);roles_responsibilities_defined;bool;;Set to true if the document shows that roles and responsibilities for managing major cybersecurity incidents are clearly defined. Set to false otherwise.
+OPS-02;Surveillance & SOC;siem_present;bool;;Set to true if the document shows that a SIEM or XDR platform is deployed to collect and analyze security events.
+OPS-02;Surveillance & SOC;soc_internal_present;bool;;Set to true if the document shows that the organization operates its own internal SOC or cyber monitoring team.
+OPS-02;Surveillance & SOC;mdr_mss_soc;bool;;Set to true if the organization uses an external SOC, MDR, or MSSP service for security monitoring and response.
+OPS-02;Surveillance & SOC;monitoring_24_7;bool;;Set to true if the document shows that security monitoring is performed around the clock (24/7).
+OPS-02;Surveillance & SOC;soc_can_remediate;bool;;Set to true if the document shows that the SOC is capable of taking response or remediation actions (for example isolating endpoints, disabling accounts, blocking indicators, killing processes).
+OPS-02;Surveillance & SOC;soc_automation;bool;;Set to true if the document shows that security workflows are automated using SOAR or equivalent orchestration/automation systems.
+OPS-03;Tests de sécurité avancés (pentest);pentest_performed;bool;;Set to true if the document shows that penetration tests are performed on systems, applications, infrastructure, or cloud environments managed by the evaluated entity.
+OPS-03;Tests de sécurité avancés (pentest);pentest_independent;bool;;Set to true if penetration tests are performed by an external or independent third party.
+OPS-03;Tests de sécurité avancés (pentest);pentest_regular;bool;;Set to true if penetration tests are conducted periodically (e.g. annually).
+OPS-03;Tests de sécurité avancés (pentest);remediation_process_present;bool;;Set to true if the document shows that a structured process exists to track and remediate findings from penetration tests or security assessments.
+RES-01;Plannification continuité d'activité & reprise d'activité;bcp_present;bool;;Set to true if the document shows that a Business Continuity Plan (BCP) is formally documented. Set to false otherwise.
+RES-01;Plannification continuité d'activité & reprise d'activité;drp_present;bool;;Set to true if the document shows that a Disaster Recovery Plan (DRP) is formally documented. Set to false otherwise.
+RES-01;Plannification continuité d'activité & reprise d'activité;bia_performed;bool;;Set to true if the document shows that a Business Impact Analysis (BIA) has been performed to identify critical activities, services, or processes. Set to false otherwise.
+RES-01;Plannification continuité d'activité & reprise d'activité;rto_defined;bool;;Set to true if the document explicitly defines Recovery Time Objectives (RTO) for critical services or processes. Set to false otherwise.
+RES-01;Plannification continuité d'activité & reprise d'activité;rpo_defined;bool;;Set to true if the document explicitly defines Recovery Point Objectives (RPO) for critical services or processes. Set to false otherwise.
+RES-02;Tests de continuité & exercices;bcp_dr_exercised;bool;;Set to true if the document shows that business continuity or disaster recovery exercises are performed (for example continuity exercises, crisis simulations, or DR exercises). Set to false otherwise.
+RES-02;Tests de continuité & exercices;exercise_regular;bool;;Set to true if the document shows that business continuity or disaster recovery exercises are performed on a regular or recurring basis (for example annually or periodically). Set to false otherwise.
+RES-02;Tests de continuité & exercices;lessons_learned;bool;;Set to true if the document shows that lessons learned, post-exercise reviews, or continuous improvement actions are documented following continuity or recovery exercises. Set to false otherwise.
+RES-03;Gestion de crise;crisis_management_defined;bool;;Set to true if the document shows that a formal crisis management framework or process is defined to handle major organizational crises. Set to false otherwise.
+RES-03;Gestion de crise;crisis_roles_defined;bool;;Set to true if the document shows that roles and responsibilities within the crisis management structure are clearly defined (for example crisis team, decision makers, escalation roles). Set to false otherwise.
+RES-03;Gestion de crise;external_communication_defined;bool;;Set to true if the document shows that external communication procedures are defined for crisis situations (for example communication toward clients, partners, regulators, or authorities). Set to false otherwise.
+RES-03;Gestion de crise;critical_dependencies_identified;bool;;Set to true if the document shows that critical internal or external dependencies (for example key suppliers, infrastructure providers, or critical services) are identified as part of the resilience or crisis management approach. Set to false otherwise.
+TRAIN-01;Sensibilisation utilisateurs;awareness_program;bool;;Set to true if the document shows that a formal security awareness program for employees is defined. Set to false otherwise.
+TRAIN-01;Sensibilisation utilisateurs;awareness_regular;bool;;Set to true if the document shows that security awareness activities are conducted on a regular or recurring basis. Set to false otherwise.
+TRAIN-01;Sensibilisation utilisateurs;awareness_materials;bool;;Set to true if the document shows that security awareness materials (for example guides, videos, or internal communications) are provided to employees. Set to false otherwise.
+TRAIN-02;Formations équipes opérationnelles;role_based_training;bool;;Set to true if the document shows that security training is adapted to specific roles or functions (for example IT, operations, administrators, developers). Set to false otherwise.
+TRAIN-02;Formations équipes opérationnelles;ops_trained;bool;;Set to true if the document shows that operational or IT teams receive dedicated security training related to their roles and responsibilities. Set to false otherwise.
+TRAIN-02;Formations équipes opérationnelles;developers_trained;bool;;Set to true if the document shows that development teams receive secure development or application security training. Set to false otherwise.
+TRAIN-02;Formations équipes opérationnelles;materials_only;bool;;Set to true if the document shows that role-based security training relies only on theoretical materials (for example documents or e-learning), without practical exercises or applied training. Set to false otherwise.
+TRAIN-03;Campagnes de phishing;phishing_simulations;bool;;Set to true if the document shows that phishing simulation campaigns are conducted for employees. Set to false otherwise.
+TRAIN-03;Campagnes de phishing;phishing_continuous;bool;;Set to true if the document shows that phishing simulations are conducted on a continuous or recurring basis as part of an ongoing program (for example multiple campaigns per year or rolling simulations). Set to false otherwise.
+TRAIN-03;Campagnes de phishing;reporting_mechanism;bool;;Set to true if the document shows that employees have a defined mechanism to report suspicious emails (for example a “report phishing” button, dedicated mailbox, or documented process). Set to false otherwise.

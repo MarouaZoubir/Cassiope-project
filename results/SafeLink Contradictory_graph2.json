@@ -1,0 +1,4933 @@
+{
+  "entities": [
+    {
+      "label": "Company",
+      "properties": {
+        "name": "Unknown"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT1",
+        "title": "Politique de Sécurité de l’Information"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT2",
+        "title": "Politique de Gestion des Accès & Identités"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT3",
+        "title": "Politique Mots de Passe, Secrets & Gestion des Credentials"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT4",
+        "title": "Politique Sauvegarde, Rétention, Immutabilité et Reprise"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT5",
+        "title": "Plan de Réponse aux Incidents et Forensics"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT6",
+        "title": "Politique de Gestion des Changements",
+        "version": null,
+        "date": null,
+        "owner": null
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": null,
+        "activity": null,
+        "certifications": null
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "Politique de Gestion des Changements",
+        "type": "Change Management",
+        "use": null
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Gestion des Changements",
+        "requirement": null,
+        "source": "DOCUMENT6",
+        "Cycle": null
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT7",
+        "title": "Politique de Gestion des Vulnérabilités & Patch Management"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "Politique de Gestion des Vulnérabilités & Patch Management",
+        "type": "Policy",
+        "use": "Vulnerability and Patch Management"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT8",
+        "title": "Politique Fournisseurs, Sous-Traitants et Offboarding"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "Unknown",
+        "activity": "Unknown"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT9",
+        "title": "Politique Communication & Claims Marketing (Transparence)"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Transparence"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT10",
+        "title": "Politique Journalisation, Rétention et Intégrité des Logs"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT11",
+        "title": "Rapport d’Audit Préparatoire — Executive Summary"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT12",
+        "title": "Rapport Post-Incident IR-2025-07A (Analyse détaillée)"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "Unknown Owner"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "SafeLink",
+        "activity": "protection des informations, intégrité des services et conformité réglementaire"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-SEC-001",
+        "title": "Politique de Sécurité de l’Information",
+        "version": "3.2",
+        "date": "Octobre 2025",
+        "owner": "RSSI"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "Comité de Gouvernance Sécurité",
+        "acronyme": "CGS",
+        "role": "gouvernance sécurité"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Directeur Général"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "RSSI"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "responsables IT"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "responsables sécurité"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "responsables juridique"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "responsables commercial"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "responsables de domaine"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Clause de transparence",
+        "description": "Sur demande clients, des éléments de preuve (rapports, métriques agrégées, logs d’audit) sont accessibles sous NDA ; certaines informations sensibles (identifiants, logs bruts détaillés, clés) restent restreintes pour des raisons de sécurité."
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "conformité",
+        "value": "ISO 27001 et SOC 2",
+        "scope": "SafeLink",
+        "source_doc": "Politique de Sécurité de l’Information",
+        "source_doc_id": "SL-SEC-001"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "certification",
+        "value": "ISO 27001 certified",
+        "scope": "SafeLink",
+        "source_doc": "marketing",
+        "source_doc_id": "Document 9"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "11",
+        "title": "rapport externe"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "données clients",
+        "classification": "classification des données"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "systèmes informatiques",
+        "description": "hébergeant ou traitant des données clients"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "chiffrement",
+        "use": "au repos et en transit"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "sauvegardes",
+        "use": "avec politique de rétention"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "gestion des accès",
+        "use": "basée sur le principe du moindre privilège"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "journalisation centralisée"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "SOC",
+        "use": "opérationnel"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "ISO 27001",
+        "type": "norme",
+        "use": "conformité"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "SOC 2",
+        "type": "norme",
+        "use": "conformité"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "classification des données"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "chiffrement au repos et en transit"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "sauvegardes avec politique de rétention"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "gestion des accès basée sur le principe du moindre privilège"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "journalisation centralisée"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "SOC opérationnel"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "SafeLink"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-IAM-002",
+        "title": "Politique de Gestion des Accès & Identités",
+        "version": "2.1",
+        "date": "Septembre 2025",
+        "owner": "Responsable IAM"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "enterprise",
+        "sector": "enterprise"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "SSO / SCIM",
+        "use": "intégration"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "console d’administration",
+        "use": "gestion des comptes locaux"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "scripts d’intégration",
+        "use": "automatisation du provisioning"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "MFA",
+        "use": "authentification"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "outils legacy",
+        "use": "intégrations"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "intégrations CI/CD",
+        "use": "intégrations"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "accès par IP",
+        "requirement": "mesures compensatoires"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "sessions limitées",
+        "requirement": "mesures compensatoires"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "revues d’accès trimestrielles",
+        "requirement": "revue des comptes critiques"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "revues d’accès semi-annuelles",
+        "requirement": "revue des autres périmètres"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "revues d’accès ad-hoc",
+        "requirement": "revue des autres périmètres"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "KeySafe",
+        "use": "gestion des comptes machines et applications"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "rotation automatisée",
+        "use": "rotation des secrets critiques"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "break-glass",
+        "use": "accès temporaire en situation d'incident"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 1",
+        "title": "unknown",
+        "owner": "unknown"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 10",
+        "title": "registre central d’authentification",
+        "owner": "unknown"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "MFA obligatoire",
+        "value": "obligatoire pour tous les accès distants",
+        "source_doc": "Document 1",
+        "quote": "l’utilisation de MFA est obligatoire pour tous les accès distants"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "MFA recommandé",
+        "value": "recommandé hors comptes à privilège",
+        "source_doc": "SL-IAM-002",
+        "quote": "MFA de « recommandé » hors comptes à privilège"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "exceptions techniques",
+        "value": "admises",
+        "source_doc": "SL-IAM-002",
+        "quote": "admet des exceptions techniques"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "durées de conservation des logs",
+        "value": "différentes",
+        "source_doc": "Document 10",
+        "quote": "des durées de conservation différentes pour les logs d’authentification"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "admins"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "opérateurs infra"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "équipe op"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "propriétaire métier"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "département IAM"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "comptes à privilège élevé",
+        "description": "comptes admins, opérateurs infra"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "comptes utilisateurs",
+        "description": "comptes utilisateurs"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "comptes machines et applications",
+        "description": "comptes machines et applications"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "secrets critiques",
+        "description": "secrets critiques"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "comptes partagés historiques",
+        "description": "comptes partagés historiques"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "registre central d’authentification",
+        "description": "registre central d’authentification"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "logs d’authentification",
+        "description": "logs d’authentification"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "risques d’accès non autorisé",
+        "level": "unknown"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "conflit sur la politique d’audit",
+        "level": "unknown"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-PASS-003",
+        "title": "Politique Mots de Passe, Secrets & Gestion des Credentials",
+        "version": "1.8",
+        "date": "Août 2025",
+        "owner": "SecOps Lead"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "1Password"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Dashlane"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "KeyVault"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "HashiCorp Vault"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "CI/CD"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "mots de passe humains",
+        "classification": "credentials"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "secrets applicatifs",
+        "description": "API keys, tokens",
+        "classification": "credentials"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "scripts legacy",
+        "classification": "code"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "dépôt privé",
+        "classification": "repository"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "appliances réseau",
+        "classification": "hardware"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "credentials encodés",
+        "classification": "credentials"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Incident Tracker"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 12",
+        "title": "post-incident"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "présence de credentials en clair dans un dépôt privé",
+        "level": "high"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "rotations non effectuées lors d'incidents antérieurs",
+        "level": "high"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "longueur minimale 12 caractères pour mots de passe humains"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "rotation automatique des secrets applicatifs tous les 90 jours"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "révocation immédiate en cas de compromission"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "génération d’un nouveau secret en cas de compromission"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "restrictions réseau pour secrets immuables"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "isolation des comptes pour secrets immuables"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "investigation en cas de compromission"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "tracabilité des actions dans Incident Tracker"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "SecOps Lead"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "rotation automatique tous les 90 jours"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "rotation automatique",
+        "value": "90 jours",
+        "unit": "jours",
+        "scope": "secrets applicatifs",
+        "source_doc": "SL-PASS-003",
+        "quote": "rotation automatique pour catégories critiques (par défaut : 90 jours)"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-BCK-004",
+        "title": "Politique Sauvegarde, Rétention, Immutabilité et Reprise",
+        "version": "2.5",
+        "date": "Octobre 2025",
+        "owner": "Responsable Infrastructure"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "clients sous SLA premium",
+        "sector": "premium"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "SLA premium",
+        "type": "SLA"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "bases transactionnelles",
+        "description": "données critiques",
+        "classification": "critique"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "volumes applicatifs",
+        "description": "données critiques",
+        "classification": "critique"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "données réglementaires",
+        "description": "données critiques",
+        "classification": "critique"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "supports cloud redondants",
+        "description": "volumes critiques",
+        "classification": "critique"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "clusters de staging",
+        "description": "données",
+        "classification": "non spécifié"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "WORM",
+        "use": "stockage immuable"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "immuabilité",
+        "value": "90 jours",
+        "scope": "plans premium",
+        "source_doc": "PSI",
+        "source_doc_id": "Document 1"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "immuabilité",
+        "value": "partielle",
+        "scope": "plan standard",
+        "source_doc": "SL-BCK-004",
+        "source_doc_id": "SL-BCK-004"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Operational Backup Report",
+        "title": "Operational Backup Report",
+        "date": "Sept 2025"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Ticket #IR-452",
+        "title": "Ticket #IR-452",
+        "date": "Juil 2025"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "rétention abaissée à 14 jours pour contrainte de stockage",
+        "level": "non spécifié"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "restauration échouée sur un sous-ensemble supposé immuable",
+        "level": "non spécifié"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "tests de restauration",
+        "requirement": "planifiés trimestriellement pour les périmètres critiques"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "vérification d’intégrité",
+        "requirement": "incluse dans la procédure de restauration"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "validation post-restauration",
+        "requirement": "incluse dans la procédure de restauration"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "stockage WORM",
+        "use": "migration progressive"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "contrôles d’intégrité",
+        "requirement": "renforcement"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "automatisation des tests de restauration",
+        "requirement": "automatisation"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-IRP-005",
+        "title": "Plan de Réponse aux Incidents et Forensics",
+        "version": "1.6",
+        "date": "Septembre 2025",
+        "owner": "Incident Manager"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "clients"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "RSSI",
+        "role": "coordination stratégique, communication externe"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Incident Manager"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Équipe on-call"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Support client"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "CEO"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "prestataires externes"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "NDA",
+        "type": "Non-Disclosure Agreement"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "notification des incidents critiques",
+        "description": "notification des incidents critiques au RSSI en <30 minutes"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "RCA publics",
+        "description": "RCA publics sous 7 jours"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "IR-2025-07A",
+        "title": "Rapport Post-Incident"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "notification clients",
+        "value": "4 jours",
+        "scope": "après détection",
+        "source_doc": "Rapport Post-Incident IR-2025-07A",
+        "source_doc_id": "Document 12"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "RCA livré",
+        "value": "45 jours",
+        "scope": "après l'événement",
+        "source_doc": "Rapport Post-Incident IR-2025-07A",
+        "source_doc_id": "Document 12"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "non respect des SLA et discordances temporelles",
+        "level": "critique"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "SLA",
+        "type": "Service Level Agreement"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "ServiceNow"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-CHG-006",
+        "title": "Politique de Gestion des Changements",
+        "version": "2.2",
+        "date": "Juin 2025",
+        "owner": "Change Manager"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "CAB",
+        "role": "validation des changements"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "ServiceNow",
+        "use": "soumission des tickets de changement"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "rollbacks automatisés",
+        "use": "restauration des services conteneurisés"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "infrastructure legacy",
+        "use": "restauration manuelle"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "CI/CD gates",
+        "use": "renforcement des validations"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "reporting qualité post-déploiement",
+        "use": "suivi des changements"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "incident S1 lié à un changement appliqué sans tests complets",
+        "level": "S1"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 12"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "services conteneurisés",
+        "classification": "majeur"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "infrastructure legacy",
+        "classification": "majeur"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "tests en pré-production",
+        "requirement": "systématique pour les changements majeurs"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "passage CAB",
+        "requirement": "validation des changements normaux"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "décalage entre procédure et pratique",
+        "scope": "passage CAB et tests pré-production",
+        "source_doc": "SL-CHG-006",
+        "source_doc_id": "SL-CHG-006"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Change Manager"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-VULN-007",
+        "title": "Politique de Gestion des Vulnérabilités & Patch Management",
+        "version": "1.7",
+        "date": "Juillet 2025",
+        "owner": "Vulnerability Manager"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "Tenable"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "Qualys"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Tenable",
+        "use": "scans réguliers"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Qualys",
+        "use": "scans réguliers"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "CVSS"
+      }
+    },
+    {
+      "label": "Algorithm",
+      "properties": {
+        "name": "CVSS",
+        "use": "priorisation"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "pipeline CI/CD",
+        "use": "patches push"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "vulnérabilité haute identifiée non corrigée avant exploitation",
+        "level": "haute"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 12",
+        "title": "incident S1"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "SLA internes de remédiation"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "délai de patching non respecté",
+        "value": ">90 jours",
+        "scope": "tickets CVSS 9",
+        "source_doc": "SL-VULN-007",
+        "source_doc_id": "SL-VULN-007"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "clients de SafeLink"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "SCA",
+        "use": "intégration dans le pipeline"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "SAST",
+        "use": "intégration dans le pipeline"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "modules non couverts",
+        "description": "modules non couverts par les patches"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "legacy",
+        "description": "ressources pour legacy"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "direction"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "réunion technique"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-SUP-008",
+        "title": "Politique Fournisseurs, Sous-Traitants et Offboarding",
+        "version": "1.4",
+        "date": "Juin 2025",
+        "owner": "Procurement Lead"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "Company"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "fournisseurs critiques"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "fournisseurs non critiques"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SIG-Lite"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "ISO/SOC certifications"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "DPA verification"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "due diligence"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "surveillance continue"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "monitoring réactif"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "réévaluation annuelle"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "offboarding accès revocation"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "restitution des données"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "engagement offboarding 72 h"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 2"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "revocation delay",
+        "value": ">7",
+        "unit": "jours",
+        "scope": "clés GitHub après départ",
+        "source_doc": "Document 2"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "clés",
+        "description": "clés GitHub",
+        "classification": "critique"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "DPA"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "Police cyber"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "délais >7 jours pour la révocation de clés GitHub après départ",
+        "level": "high"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "GitHub"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Procurement Lead"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "CTI"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-MKT-009",
+        "title": "Politique Communication & Claims Marketing (Transparence)",
+        "version": "1.1",
+        "date": "Mai 2025",
+        "owner": "CCO"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "IC"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "CCO"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "marketing-sécurité"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "certification",
+        "value": "ISO 27001 certified",
+        "scope": "page produit",
+        "source_doc": "Document 11",
+        "source_doc_id": "Rapport de Pré-audit",
+        "quote": "No ISO 27001 certification has been issued to date; remediation pending"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 11",
+        "title": "Rapport de Pré-audit"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "risque de greenwashing",
+        "level": "high"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "page produit",
+        "description": "bandeau de certification",
+        "classification": "public"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "clauses contractuelles",
+        "description": "fourniture de rapports et preuves sous NDA"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "clients enterprise",
+        "sector": "enterprise"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-LOG-010",
+        "title": "Politique Journalisation, Rétention et Intégrité des Logs",
+        "version": "2.1",
+        "date": "Août 2025",
+        "owner": "SOC Manager"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "ELK/Elastic Cloud"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "syslog"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "CloudTrail"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "VPC Flow"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "application logs"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "alertes IDS"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Agents légers"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "composants legacy"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "logs de sécurité",
+        "classification": "security"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "logs opérationnels",
+        "classification": "operational"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "SLA"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Hashing des fichiers"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "monitoring d’intégrité"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "alertes en cas d’anomalie"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "pertes partielles sur un shard",
+        "level": "medium"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "mesures de redondance renforcées"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "logs d’authentification conservés 12 mois"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "seules les logs de sécurité sont conservées 12 mois"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "certains logs opérationnels sont limités à 30 jours"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "rétention",
+        "value": "12 mois",
+        "scope": "logs d’authentification",
+        "source_doc": "Document 2",
+        "source_doc_id": "Document 2",
+        "quote": "les logs d’authentification sont conservés 12 mois"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "rétention",
+        "value": "12 mois",
+        "scope": "logs de sécurité",
+        "source_doc": "SL-LOG-010",
+        "source_doc_id": "SL-LOG-010",
+        "quote": "seules les logs de sécurité sont conservées 12 mois"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "rétention",
+        "value": "30 jours",
+        "scope": "logs opérationnels",
+        "source_doc": "SL-LOG-010",
+        "source_doc_id": "SL-LOG-010",
+        "quote": "certains logs opérationnels sont limités à 30 jours"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-AUDIT-011",
+        "title": "Rapport d’Audit Préparatoire — Executive Summary",
+        "version": "0.9",
+        "date": "Mars 2025",
+        "owner": "Cabinet d’audit externe"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "Cabinet d’audit externe",
+        "activity": "Audit"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "ISO 27001",
+        "type": "Security standard",
+        "use": "Compliance"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "IAM",
+        "use": "Identity and Access Management"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "PRA",
+        "use": "Disaster Recovery Plan"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Processus IAM partiellement formalisés",
+        "level": "Medium"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Sauvegardes et immutabilité non systématiques",
+        "level": "Medium"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Plan PRA incomplet, tests peu documentés",
+        "level": "High"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Preuves de conformité partielles",
+        "level": "High"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "Certification status",
+        "value": "No ISO 27001 certification issued",
+        "scope": "Company",
+        "source_doc": "SL-AUDIT-011",
+        "quote": "No ISO 27001 certification has been issued to date; remediation actions pending."
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "comité de pilotage"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 1"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 9"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Communication and compliance workflows"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "Incident Manager"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SL-IRR-012",
+        "title": "Rapport Post-Incident IR-2025-07A (Analyse détaillée)",
+        "version": "1.2",
+        "date": "Septembre 2025",
+        "owner": "Incident Manager"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 4"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 3",
+        "title": "politique de gestion des secrets"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 10"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "Document 5"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "client externe"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "logs utilisateurs",
+        "classification": "partielle"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Backups",
+        "description": "immuables"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "sauvegarde",
+        "description": "jeux de sauvegarde"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Credentials",
+        "description": "en clair"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "repo privé"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "logs pertinents"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "ACL"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "bucket policies"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "scans SAST"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "durcissement des bucket policies"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "automatisation des validations de sauvegardes immutables"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "renforcement IAM"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "exposition partielle de logs utilisateurs due à une mauvaise configuration S3",
+        "level": "critique"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "retention réduite des sauvegardes",
+        "level": "critique"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Credentials en clair dans repo privé",
+        "level": "critique"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "logs pertinents manquants ou partiellement tronqués",
+        "level": "critique"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "non respect des délais de notification, containment et RCA",
+        "level": "opérationnel"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "SLA internes",
+        "type": "SLA"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT1"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT3"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT4"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": null
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT6"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "Politique de Gestion des Changements"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Gestion des Changements"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT8"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT9"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Transparence"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT10"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unknown Owner"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT12"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-SEC-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "Comité de Gouvernance Sécurité"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Directeur Général"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "responsables IT"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "responsables sécurité"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "responsables juridique"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "responsables commercial"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "responsables de domaine"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Clause de transparence"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité"
+      },
+      "rel_type": "approves",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "conformité",
+        "source_doc_id": "SL-SEC-001"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "conformité",
+        "source_doc_id": "SL-SEC-001"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "données clients"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "conformité",
+        "source_doc_id": "SL-SEC-001"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes informatiques"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "certification",
+        "source_doc_id": "Document 9"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SafeLink"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "classification des données"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "chiffrement au repos et en transit"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "sauvegardes avec politique de rétention"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "gestion des accès basée sur le principe du moindre privilège"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "journalisation centralisée"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "SOC opérationnel"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "classification des données"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "classification des données"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "chiffrement au repos et en transit"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "chiffrement"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "sauvegardes avec politique de rétention"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "sauvegardes"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "gestion des accès basée sur le principe du moindre privilège"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "gestion des accès"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "journalisation centralisée"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "journalisation centralisée"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "SOC opérationnel"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SOC"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "chiffrement"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "données clients"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "sauvegardes"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "données clients"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "gestion des accès"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "données clients"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "journalisation centralisée"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "données clients"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "SOC"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "données clients"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "chiffrement"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes informatiques"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "sauvegardes"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes informatiques"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "gestion des accès"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes informatiques"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "journalisation centralisée"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes informatiques"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "SOC"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes informatiques"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-IAM-002"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "enterprise"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SSO / SCIM"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "console d’administration"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "scripts d’intégration"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "MFA"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Control",
+      "to_key": {
+        "name": "accès par IP"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Control",
+      "to_key": {
+        "name": "sessions limitées"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues d’accès trimestrielles"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues d’accès semi-annuelles"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues d’accès ad-hoc"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "KeySafe"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "rotation automatisée"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "break-glass"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "équipe op"
+      },
+      "rel_type": "supervise",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "scripts d’intégration"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "propriétaire métier"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues d’accès trimestrielles"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "propriétaire métier"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues d’accès semi-annuelles"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "propriétaire métier"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues d’accès ad-hoc"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "département IAM"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues d’accès trimestrielles"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "département IAM"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues d’accès semi-annuelles"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "département IAM"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues d’accès ad-hoc"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "MFA obligatoire"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateurs"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "MFA obligatoire"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes à privilège élevé"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "MFA recommandé"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateurs"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "exceptions techniques"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "outils legacy"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "exceptions techniques"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "intégrations CI/CD"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "durées de conservation des logs"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs d’authentification"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "MFA obligatoire"
+      },
+      "rel_type": "Asserted_by",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "Document 1"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "MFA recommandé"
+      },
+      "rel_type": "Asserted_by",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-IAM-002"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "exceptions techniques"
+      },
+      "rel_type": "Asserted_by",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-IAM-002"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "durées de conservation des logs"
+      },
+      "rel_type": "Asserted_by",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "Document 10"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "MFA"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes à privilège élevé"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "MFA"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateurs"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "accès par IP"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateurs"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "sessions limitées"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateurs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "KeySafe"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes machines et applications"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "rotation automatisée"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "secrets critiques"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "break-glass"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes à privilège élevé"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "risques d’accès non autorisé"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes à privilège élevé"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "risques d’accès non autorisé"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateurs"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "conflit sur la politique d’audit"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs d’authentification"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-PASS-003"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "SecOps Lead"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "rotation automatique tous les 90 jours"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "1Password"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Dashlane"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "KeyVault"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "HashiCorp Vault"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Incident Tracker"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "longueur minimale 12 caractères pour mots de passe humains"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "rotation automatique des secrets applicatifs tous les 90 jours"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "révocation immédiate en cas de compromission"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "génération d’un nouveau secret en cas de compromission"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "restrictions réseau pour secrets immuables"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "isolation des comptes pour secrets immuables"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "investigation en cas de compromission"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SecOps Lead"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "tracabilité des actions dans Incident Tracker"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "CI/CD"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "KeyVault"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "CI/CD"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "HashiCorp Vault"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "rotation automatique",
+        "value": "90 jours"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "secrets applicatifs"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "rotation automatique",
+        "value": "90 jours"
+      },
+      "rel_type": "Asserted_by",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "SecOps Lead"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "présence de credentials en clair dans un dépôt privé"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "dépôt privé"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "rotations non effectuées lors d'incidents antérieurs"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "secrets applicatifs"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "rotation automatique des secrets applicatifs tous les 90 jours"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "CI/CD"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "KeyVault"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "secrets applicatifs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "HashiCorp Vault"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "secrets applicatifs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "1Password"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "mots de passe humains"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Dashlane"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "mots de passe humains"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-BCK-004"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "clients sous SLA premium"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "SLA premium"
+      }
+    },
+    {
+      "from_label": "Agreement",
+      "from_key": {
+        "name": "SLA premium"
+      },
+      "rel_type": "for",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "clients sous SLA premium"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "bases transactionnelles"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "volumes applicatifs"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "données réglementaires"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "supports cloud redondants"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "clusters de staging"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "immuabilité",
+        "value": "90 jours"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "immuabilité",
+        "value": "partielle"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "immuabilité",
+        "value": "90 jours"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "supports cloud redondants"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "rétention abaissée à 14 jours pour contrainte de stockage"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "clusters de staging"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "restauration échouée sur un sous-ensemble supposé immuable"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "supports cloud redondants"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "tests de restauration"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "non spécifié"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "vérification d’intégrité"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "non spécifié"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "validation post-restauration"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "non spécifié"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "WORM"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "supports cloud redondants"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "tests de restauration"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "vérification d’intégrité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "validation post-restauration"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "WORM"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-IRP-005"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "clients"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "RSSI"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "CEO"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Incident Manager"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Équipe on-call"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Support client"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "prestataires externes"
+      },
+      "rel_type": "HAS",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "NDA"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "notification des incidents critiques"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "RCA publics"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "notification clients"
+      },
+      "rel_type": "Asserted_by",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Support client"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "RCA livré"
+      },
+      "rel_type": "Asserted_by",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Incident Manager"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "non respect des SLA et discordances temporelles"
+      },
+      "rel_type": "targeting",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SafeLink"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Incident Manager"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "approves",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "notification clients"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "approves",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "RCA livré"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "SLA"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ServiceNow"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-CHG-006"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ServiceNow"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "CAB"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ServiceNow"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "tests en pré-production"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ServiceNow"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "passage CAB"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CAB"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Change Manager"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ServiceNow"
+      },
+      "rel_type": "Use",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "ServiceNow"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "rollbacks automatisés"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "services conteneurisés"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "CI/CD gates"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "incident S1 lié à un changement appliqué sans tests complets"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "incident S1 lié à un changement appliqué sans tests complets"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "services conteneurisés"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "décalage entre procédure et pratique"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "services conteneurisés"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "décalage entre procédure et pratique"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructure legacy"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "décalage entre procédure et pratique"
+      },
+      "rel_type": "Asserted_by",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Change Manager"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "tests en pré-production"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "reporting qualité post-déploiement"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "passage CAB"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "ServiceNow"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-VULN-007"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "clients de SafeLink"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "Use",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "SLA internes de remédiation"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "Tenable"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SafeLink"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "Qualys"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SafeLink"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Tenable"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Qualys"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "pipeline CI/CD"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SCA"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SAST"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Tenable"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "modules non couverts"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Qualys"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "modules non couverts"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "CVSS"
+      },
+      "rel_type": "protects",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "modules non couverts"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "CVSS"
+      },
+      "rel_type": "used_by",
+      "to_label": "Algorithm",
+      "to_key": {
+        "name": "CVSS"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "vulnérabilité haute identifiée non corrigée avant exploitation"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "modules non couverts"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "délai de patching non respecté"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "modules non couverts"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "délai de patching non respecté"
+      },
+      "rel_type": "Asserted_by",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "Document 12"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "direction"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SafeLink"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "réunion technique"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Company"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-SUP-008"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs critiques"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "Company"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs non critiques"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "Company"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs critiques"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "ISO/SOC certifications"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs critiques"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "DPA verification"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs critiques"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "due diligence"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs critiques"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "surveillance continue"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs critiques"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "monitoring réactif"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs critiques"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "réévaluation annuelle"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs critiques"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "offboarding accès revocation"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs critiques"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "restitution des données"
+      }
+    },
+    {
+      "from_label": "Supplier",
+      "from_key": {
+        "name": "fournisseurs critiques"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "engagement offboarding 72 h"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "revocation delay",
+        "source_doc": "Document 2"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "clés",
+        "description": "clés GitHub"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "délais >7 jours pour la révocation de clés GitHub après départ"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "clés",
+        "description": "clés GitHub"
+      }
+    },
+    {
+      "from_label": "Clause",
+      "from_key": {
+        "name": "restitution des données"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "DPA"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Company"
+      },
+      "rel_type": "HAS",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "Police cyber"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "GitHub"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "clés",
+        "description": "clés GitHub"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CTI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "monitoring réactif"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "IC"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-MKT-009"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "IC"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "RSSI"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "IC"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "CCO"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "IC"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "marketing-sécurité"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "marketing-sécurité"
+      },
+      "rel_type": "approves",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "certification",
+        "value": "ISO 27001 certified"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "certification",
+        "value": "ISO 27001 certified"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "page produit"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "risque de greenwashing"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "page produit"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "IC"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "clauses contractuelles"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "IC"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "clients enterprise"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-LOG-010"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "syslog"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "CloudTrail"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "VPC Flow"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "application logs"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "alertes IDS"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Agents légers"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "composants legacy"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs de sécurité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs opérationnels"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "Use",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "SLA"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Hashing des fichiers"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "monitoring d’intégrité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ELK/Elastic Cloud"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "alertes en cas d’anomalie"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "pertes partielles sur un shard"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs de sécurité"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "mesures de redondance renforcées"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Agents légers"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "rétention",
+        "value": "12 mois",
+        "scope": "logs d’authentification"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs de sécurité"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "rétention",
+        "value": "12 mois",
+        "scope": "logs de sécurité"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs de sécurité"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "rétention",
+        "value": "30 jours",
+        "scope": "logs opérationnels"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs opérationnels"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "SL-LOG-010"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "seules les logs de sécurité sont conservées 12 mois"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "SL-LOG-010"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "certains logs opérationnels sont limités à 30 jours"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "Document 2"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "logs d’authentification conservés 12 mois"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Cabinet d’audit externe"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-AUDIT-011"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "IAM formalization"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Backup immutability"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "PRA completeness"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27001"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Compliance evidence"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Processus IAM partiellement formalisés"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Access management"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Sauvegardes et immutabilité non systématiques"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Backup data"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Plan PRA incomplet, tests peu documentés"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Disaster recovery"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Preuves de conformité partielles"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Compliance artefacts"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "Certification status",
+        "value": "No ISO 27001 certification issued"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Company",
+      "to_key": {
+        "name": "Audited company"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "comité de pilotage"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Audit remediation"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "Certification status",
+        "value": "No ISO 27001 certification issued"
+      },
+      "rel_type": "Asserted_by",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Auditor"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Audited company"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "comité de pilotage"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Audited company"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Communication and compliance workflows"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Incident Manager"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SL-IRR-012"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Incident Manager"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "client externe"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "exposition partielle de logs utilisateurs due à une mauvaise configuration S3"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs utilisateurs"
+      }
+    },
+    {
+      "from_label": "Asset",
+      "from_key": {
+        "type": "Backups"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "sauvegarde"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "retention réduite des sauvegardes"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "sauvegarde"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Credentials en clair dans repo privé"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Credentials"
+      }
+    },
+    {
+      "from_label": "Asset",
+      "from_key": {
+        "type": "Credentials"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "repo privé"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "logs pertinents manquants ou partiellement tronqués"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs pertinents"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Incident Manager"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "SLA internes"
+      }
+    },
+    {
+      "from_label": "Agreement",
+      "from_key": {
+        "name": "SLA internes"
+      },
+      "rel_type": "for",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "Incident Manager"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "durcissement des bucket policies"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "bucket policies"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "automatisation des validations de sauvegardes immutables"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "automatisation"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "renforcement IAM"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "IAM"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "scans SAST"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "repo privé"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "Document 4"
+      },
+      "rel_type": "source_doc",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "retention réduite des sauvegardes"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "Document 3"
+      },
+      "rel_type": "source_doc",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "Credentials en clair dans repo privé"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "Document 10"
+      },
+      "rel_type": "source_doc",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "logs pertinents manquants ou partiellement tronqués"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "Document 5"
+      },
+      "rel_type": "source_doc",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "non respect des délais de notification, containment et RCA"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "Document 1"
+      },
+      "rel_type": "source_doc",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "non respect des délais de notification, containment et RCA"
+      }
+    }
+  ]
+}

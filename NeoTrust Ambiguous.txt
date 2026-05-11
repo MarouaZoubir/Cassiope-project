@@ -1,0 +1,944 @@
+###############################################################
+NEOTRUST AMBIGUOUS — BLOCK 1 (DOCUMENTS 1–5) — EXTENDED
+Vendor : NeoTrust Ambiguous
+Version : v2.0 – Octobre 2025
+Langues : mix EN / FR (1:EN, 2:EN, 3:FR, 4:EN, 5:FR)
+=== DOCUMENT 1 : Information Security Statement (Extended) ===
+=== DOCUMENT 2 : Access & Identity Expectations (Extended) ===
+=== DOCUMENT 3 : Password & Credential Guidance (FR) (Extended) ===
+=== DOCUMENT 4 : Data Handling — High Level (Extended) ===
+=== DOCUMENT 5 : Backup & Retention (FR) (Extended) ===
+=== DOCUMENT 6 : Network & Perimeter Security Position Paper (Extended) ===
+=== DOCUMENT 7 : Gestion des vulnérabilités et correctifs (Étendu) ===
+=== DOCUMENT 8 : Incident Response — Policy Light (Extended) ===
+=== DOCUMENT 9 : Business Continuity — Soft Commitments (Extended) ===
+=== DOCUMENT 10 : Cryptography Notes (Extended) ===
+=== DOCUMENT 11 : Change Management — Flexible Practice (Extended) ===
+=== DOCUMENT 12 : SDLC & Secure Coding (Extended) ===
+=== DOCUMENT 13 : Logging & Monitoring (FR) (Extended) ===
+=== DOCUMENT 14 : Remote Access — Guidance (Extended) ===
+=== DOCUMENT 15 : Asset Management & Inventory (FR) (Extended) ===
+=== DOCUMENT 16 : Supplier & Subprocessor Management (Extended) ===
+=== DOCUMENT 17 : HR & Onboarding (FR) (Extended) ===
+=== DOCUMENT 18 : Awareness & Training (Extended) ===
+=== DOCUMENT 19 : Certificate Management (FR) (Extended) ===
+=== DOCUMENT 20 : Physical Security — Statement (Extended) ===
+=== DOCUMENT 21 : Cloud & Multitenant Isolation Guidelines (Extended) ===
+=== DOCUMENT 22 : Gouvernance des risques et conformité (Étendu) ===
+=== DOCUMENT 23 : Privacy & Data Subject Rights Handling (Extended) ===
+=== DOCUMENT 24 : Cyber Threat Intelligence & Vendor Alerts (Extended) ===
+=== DOCUMENT 25 : Marketing Claims & Disclaimers (Extended) ===
+###############################################################
+
+=== DOCUMENT 1 : Information Security Statement (Extended) ===
+Version: 2.0 – Oct 2025
+Language: English
+Owner: Head of Security & Risk
+Status: Published (informal)
+
+Purpose and scope
+-----------------
+This Information Security Statement aims to provide an overarching description of NeoTrust Ambiguous’s posture regarding information protection, risk governance and operational security. It is intentionally non-prescriptive in certain sections to allow flexibility across product lines and contractual tiers. The statement applies broadly to NeoTrust corporate operations, managed services, and customer-facing platforms, subject to specific contractual variations and exceptions defined in client agreements.
+
+Philosophy & approach
+---------------------
+NeoTrust takes a pragmatic, risk-aware approach to security implementation. The company prefers solutions that balance operational agility and risk mitigation, and therefore some of its controls are applied selectively based on perceived impact and the customer’s chosen service tier. Where appropriate, NeoTrust references established frameworks (for example ISO/IEC 27001, SOC 2 Trust Services Criteria, and cloud provider security guidelines) and aligns internal practice to the extent that it is feasible and justifiable from a cost, performance and integration perspective.
+
+Governance and responsibilities
+-------------------------------
+The security governance model is layered and adaptive. The Head of Security & Risk is accountable for policy oversight and high-level coordination, but day-to-day security decisions are often delegated to product security owners and engineering leads. A periodic governance forum convenes stakeholders across product, operations, legal and sales to review major risks and open remediation actions. The cadence of governance reviews may vary — commonly quarterly, but occasionally on an as-needed basis for critical issues.
+
+Risk assessment and acceptance
+------------------------------
+NeoTrust maintains a risk register and conducts product-line-specific risk assessments. The treatment of identified risks follows a standard triage: remediation, acceptance, transfer (insurance/contractual), or mitigation via compensating controls. For certain low-impact or legacy components, the company may elect to accept residual risk subject to documented rationale and periodic re-evaluation. Risk thresholds are communicated to senior management and reflected in engagement-specific statements of work when needed.
+
+Control implementation and evidence
+-----------------------------------
+Controls are implemented across technical, organizational and procedural layers. Technical controls include perimeter and application firewalls, WAFs, basic IDS/IPS configurations, and cloud-native security features where available. Organizational controls include vendor reviews and contractual DPAs. In many cases, evidence of control efficacy (logs, test reports, certificates) is available on request; however, availability may be contingent on the client’s contract level or NDAs. NeoTrust will generally provide documentary or demonstrable evidence to customers after appropriate diligence and contractual terms are established.
+
+Transparency and limitations
+----------------------------
+NeoTrust endeavors to be transparent about its security posture; nevertheless, certain disclosures cannot be applied uniformly. For operational security reasons, the company may withhold specific technical details publicly but will discuss them with clients under NDA. The words “may”, “typically”, and “where applicable” recur in this statement by design — they signal that specific implementations are context-dependent and that contractual terms take precedence.
+
+Review and continuous improvement
+---------------------------------
+This Statement is reviewed periodically; emergent threats, significant incidents, or strategic shifts may accelerate reviews. Stakeholders are invited to submit clarifying questions; responses will be routed to the Head of Security & Risk and, where necessary, to legal for contractual clarification.
+
+=== DOCUMENT 2 : Access & Identity Expectations (Extended) ===
+Version: 1.5 – Oct 2025
+Language: English
+Owner: Identity & Access Lead
+Status: Guidance (operational)
+
+Overview and intent
+-------------------
+This document frames NeoTrust’s expectations and current practices concerning identity, authentication and authorization across managed services and tenant models. The objective is to set realistic customer expectations while documenting the practical constraints that sometimes influence implementation choices.
+
+Identity models and provisioning
+--------------------------------
+NeoTrust supports several identity models: full SSO with federated identity providers (IdP) for enterprise customers, hybrid SSO/local account combinations for smaller clients, and temporary credentials for managed-service interventions. Where SSO is supported, the IdP configuration is typically handled in collaboration with the customer; for customers without an IdP, NeoTrust may deploy internal accounts with scoped privileges.
+
+Account lifecycle and reviews
+-----------------------------
+Account creation, modification and termination follow an operational workflow; however, the degree of automation varies. Large enterprise deployments often integrate with customer HR/IdP via SCIM or similar provisioning; for other customers, account lifecycle events are processed manually by operations staff. Access reviews are performed — cadence varies: some tenants receive quarterly reviews, others semi-annually or on demand. NeoTrust may propose quarterly cadence as a best practice; actual cadence is frequently aligned to client contractual terms.
+
+Authentication and MFA
+----------------------
+NeoTrust enforces multi-factor authentication for privileged user classes and administrative console access in most environments. For certain legacy integrations and development tooling, MFA may be relaxed to accommodate operational constraints; compensating controls (restricted network access, short-lived credentials) are implemented where feasible. NeoTrust recommends MFA across the board, and offers guidance and assistance to customers to enable it in their environments.
+
+Authorization and least privilege
+--------------------------------
+Role-based access control (RBAC) and least-privilege principles are the default model. However, for speed of operations and in emergency scenarios, temporary elevated access (break-glass) mechanisms are provided to authorized operators, accompanied by logging and retrospective review. The processes around break-glass can vary slightly from one deployment to another; NeoTrust documents each event and may request post-event approval from the customer.
+
+Privileged account monitoring
+-----------------------------
+Privileged activities are logged and retained according to tenant-specific retention policies. NeoTrust aims to capture essential telemetry (who, what, when, where); however, the level of detail and retention period may differ by subscription tier. Customers may opt for extended logging and SIEM integration as an add-on.
+
+Exceptions and contractual precedence
+------------------------------------
+Operational exceptions are documented and subject to approval by NeoTrust’s security governance. Contractual terms governing a specific customer supersede this guidance; in all cases, NeoTrust will seek to negotiate pragmatic solutions consistent with both security posture and business needs.
+
+=== DOCUMENT 3 : Guide des mots de passe et identifiants (Extended) ===
+Version : 1.1 – Octobre 2025
+Langue : Français
+Propriétaire : Responsable Sécurité Opérationnelle
+Statut : Recommandation
+
+Introduction
+------------
+Ce document détaille les recommandations de NeoTrust en matière de création, stockage, rotation et partage des mots de passe et autres secrets. Il vise à concilier sécurité opérationnelle et contraintes d’intégration avec des outils tiers ou des processus existants chez nos clients.
+
+Bonnes pratiques recommandées
+-----------------------------
+- **Phrases de passe** : privilégier les phrases de passe d’au moins 16 caractères pour les comptes humains. Lorsque l’usage d’un gestionnaire de mots de passe est possible, il est fortement recommandé de l’adopter.
+- **Gestion des secrets** : les secrets d’application et clés API doivent, dans la mesure du possible, être gérés via une solution de type KMS/KeyVault. NeoTrust recommande l’usage de solutions managées (AWS KMS, Azure Key Vault, HashiCorp Vault) selon la plateforme hôte.
+- **Rotation** : la rotation régulière des secrets est encouragée ; la fréquence peut varier (p.ex. 90–365 jours) en fonction de la criticité. Pour certains comptes machine à haut volume, la rotation peut être automatisée et pilotée par des jobs orchestrés.
+- **Stockage partagé** : l’usage de coffres partagés est toléré pour les opérations mais doit être strictement limité aux personnels habilités et faire l’objet d’un suivi d’accès.
+
+Contraintes et exceptions
+-------------------------
+Il existe des cas pratiques où des outils ou intégrations imposent des formats ou des contraintes : certains systèmes CI/CD, appliances réseau anciennes, ou intégrations SaaS tierces peuvent nécessiter l’emploi d’un secret long immuable. Dans ces contextes, NeoTrust peut mettre en place des mesures compensatoires (réstriction d’exposition réseau, rotation programmée via wrapper) et documenter le risque.
+
+Gestion des incidents liés aux secrets
+-------------------------------------
+Toute suspicion de compromission d’un secret doit être remontée immédiatement via le canal désigné. Les actions habituelles sont : révocation immédiate, génération d’un secret neuf, et investigation court terme. NeoTrust recommande la révocation rapide des secrets déployés dans des environnements partagés.
+
+Sensibilisation et formation
+----------------------------
+Un module de sensibilisation traite du phishing et du bon usage des coffres ; ce dernier est dispensé lors des onboarding pour les profils techniques. Toutefois, la fréquence des sessions et la couverture varient selon les lignes produit et les clients.
+
+=== DOCUMENT 4 : Data Handling — High Level Considerations (Extended) ===
+Version: 1.2 – Oct 2025
+Language: English
+Owner: Data Protection & Compliance Lead
+
+Overview and contractual nuance
+-------------------------------
+NeoTrust’s approach to data handling is deliberately customer-needs oriented; that is, the company defines baseline practices while allowing contractual deviations for data residency, retention and export controls. This document outlines typical practices and highlights decision points likely to be covered in contractual annexes.
+
+Data classification and labeling
+--------------------------------
+NeoTrust encourages customers to adopt a classification taxonomy and will support labeling at dataset level where integrated tooling permits. Typical categories include Public, Internal, Confidential and Restricted. Classification may be performed by customers or jointly with NeoTrust during onboarding for managed services.
+
+Encryption and key management
+-----------------------------
+At minimum, network transport uses TLS 1.2+ (TLS 1.3 where supported). Data-at-rest encryption is provided by the underlying cloud platform; NeoTrust recommends provider-managed KMS for standard tiers and tenant-dedicated KMS for higher trust tiers. Key lifecycle management is usually conducted by the cloud provider; NeoTrust offers optional managed key services where client needs demand dedicated control.
+
+Backups, retention and immutability
+----------------------------------
+Backups of core services are produced with frequencies reflecting product SLAs. Retention policies vary: typical values are 30 days (standard), 90 days (business), 365+ days (archival/premium). Immutable backups are offered as a premium capability for certain services; customers concerned by regulatory or investigational needs are encouraged to opt for these plans.
+
+Data subject rights and deletion
+-------------------------------
+NeoTrust implements processes enabling data subject requests (access, deletion, portability). The degree of automation depends on the data architecture and on whether data is stored in shared multi-tenant systems or dedicated tenants. Deletion workflows may involve manual verification steps for complex datasets.
+
+Cross-border transfers and legal compliance
+------------------------------------------
+Cross-border transfers proceed under contractual safeguards (SCCs, adequacy decisions) where applicable. For some geographies, NeoTrust may restrict export out of region unless express contractual permission exists.
+
+Operational caveats and evidence
+-------------------------------
+NeoTrust can provide procedural documentation and evidence for many controls, but some evidence types (e.g., raw logs, internal change records) are only disclosed under audit terms or via secure channels agreed in contract. For clients requiring stronger evidential chains, NeoTrust recommends premium engagements with expanded logging retention and independent attestations.
+
+=== DOCUMENT 5 : Sauvegarde et Rétention — Notes étendues (Extended) ===
+Version : 1.1 – Octobre 2025
+Langue : Français
+Propriétaire : Responsable Infrastructure
+Statut : Politique opérationnelle (niveau guidance)
+
+Contexte et principes
+---------------------
+NeoTrust opère plusieurs offres et chaque offre peut embarquer un schéma de sauvegarde différent. Les paragraphes ci-dessous présentent les pratiques les plus courantes et les options disponibles, en soulignant que les engagements chiffrés doivent être contractualisés.
+
+Fréquences et méthodes
+----------------------
+- Sauvegardes différentielles et complètes sont effectuées selon la nature du service : journalières pour les bases critiques, hebdomadaires pour certains systèmes de reporting, ponctuelles pour les environnements de développement.
+- Les sauvegardes sont stockées sur des supports cloud redondants, avec possibilités d’export vers un stockage “cold” pour archival.
+- La vérification d’intégrité est effectuée de manière périodique ; la fréquence et l’automatisation de ces vérifications peuvent varier selon le plan choisi.
+
+Rétention et immuabilité
+------------------------
+- Les durées de rétention usuelles indiquées en documentation commerciale sont indicatives (30/90/365). La mise en place d’une immuabilité effective (WORM) est proposée en option sur certains services : l’activation est alors soumise à configuration préalable et à disponibilité régionale.
+- Les délais contractuels pour la suppression ou l’export des sauvegardes sont définis dans la DPA : NeoTrust s’engage à coopérer pour l’extraction ou la purge sous conditions raisonnables.
+
+Procédure de restauration
+-------------------------
+- Les restaurations sont principalement orchestrées par l’équipe support ou par les ingénieurs en charge du service. Le délai et la granularité (fichier, base, volume complet) dépendent de la topologie et des droits d’accès.
+- Les scénarios de tests de restauration sont conduits périodiquement pour certaines offres ; sur d’autres, ils sont réalisés à la demande ou après incidents significatifs.
+
+Logs, traçabilité et preuve
+---------------------------
+- Les journaux d’activité liés aux opérations de sauvegarde (création, suppression, restauration) sont parfois archivés et traités comme logs d’audit. La conservation et la divulgation de ces logs sont soumises à la politique de rétention choisie par le client.
+
+Risques connus et mesures compensatoires
+---------------------------------------
+- Lorsque l’immuabilité n’est pas activée, NeoTrust recommande des mesures compensatoires (chiffrement de sauvegarde, contrôles d’accès renforcés, revue d’intégrité).  
+- Les scénarios légaux ou investigatifs peuvent nécessiter des exportations manuelles qui impliquent des délais opérationnels.
+
+Révision et amélioration continue
+---------------------------------
+Ce document est maintenu par l’équipe Infrastructure ; les évolutions technologiques (nouveaux fournisseurs de stockage, capacités immutables locales) sont évaluées et peuvent être proposées comme options commerciales.
+
+###############################################################
+NEOTRUST AMBIGUOUS — BLOCK 2 (DOCUMENTS 6–10) — EXTENDED
+Vendor : NeoTrust Ambiguous
+Profile : Adversarial — verbose, modal, hedging
+Version : v2.0 – Octobre 2025
+Langues : mix EN / FR (6:EN, 7:FR, 8:EN, 9:FR, 10:EN)
+###############################################################
+
+=== DOCUMENT 6 : Network & Perimeter Security Position Paper (Extended) ===
+Version : 1.1 – Oct 2025
+Language : English
+Owner : Head of Infrastructure
+Status : Reference guidance
+
+Purpose and audience
+--------------------
+This paper describes NeoTrust’s philosophy regarding network and perimeter security. It aims to align technical implementation with flexible operational realities, particularly where infrastructure is shared between customer environments or hosted under different compliance contexts.
+
+Network design principles
+-------------------------
+NeoTrust adopts a layered network model built around the principle of “defense in depth”.  
+Each environment is segmented logically — physical segmentation may be provided where feasible.  
+The implementation of micro-segmentation is based on the maturity of the tenant: some clients leverage dedicated VPCs or VNets, others operate within shared logical segments secured by routing policies.
+
+Firewall and traffic control
+----------------------------
+Inbound and outbound traffic is controlled using a combination of cloud-native firewalls, security groups, and access control lists.  
+Rule sets are reviewed periodically — the cadence depends on service criticality and volume of change.  
+For certain lower-tier offerings, automatic rule reviews may not be enforced; instead, event-driven reviews occur when incidents or alerts arise.
+
+Perimeter defense and WAF
+-------------------------
+NeoTrust deploys web application firewalls (WAFs) for its main SaaS endpoints.  
+Configuration templates are standardized but can be overridden to match customer application patterns.  
+False positive management and tuning are handled jointly by operations and development teams; frequency of tuning depends on traffic volume and anomaly reports.
+
+Monitoring and detection
+------------------------
+Network monitoring combines automated tools (VPC flow logs, IDS alerts) with manual periodic reviews.  
+Some telemetry streams are aggregated into a central log environment; others remain local to reduce latency or cost.  
+The detection coverage is broad but not exhaustive — certain internal microservices may not be monitored continuously due to data volume constraints.
+
+Limitations and compensations
+-----------------------------
+Legacy systems hosted in hybrid environments may still rely on static IP-based allowlists instead of zero-trust models.  
+Where this occurs, compensating controls include MFA enforcement and restricted SSH access.  
+NeoTrust continues to evolve towards fully software-defined perimeters.
+
+=== DOCUMENT 7 : Gestion des vulnérabilités et correctifs (Étendu) ===
+Version : 1.2 – Octobre 2025
+Langue : Français
+Propriétaire : Responsable Sécurité Technique
+Statut : Procédure cadre
+
+Objectif et portée
+------------------
+Ce document présente la stratégie et les processus associés à la détection, l’évaluation et la correction des vulnérabilités au sein de NeoTrust.  
+L’approche repose sur la priorisation par criticité et la flexibilité selon les environnements.
+
+Identification et suivi
+-----------------------
+Les vulnérabilités sont identifiées par différents canaux :
+- Scans automatiques internes (hebdomadaires ou mensuels selon le périmètre) ;
+- Bulletins de sécurité éditeurs (Microsoft, AWS, Linux distributions) ;
+- Alertes issues de la communauté ou des CERT.
+
+Les résultats sont centralisés dans un tableau de suivi ; le niveau de détail et la fréquence de mise à jour varient selon les équipes.
+
+Évaluation et priorisation
+--------------------------
+NeoTrust applique une échelle inspirée du CVSS pour évaluer les vulnérabilités.  
+Les correctifs sont planifiés selon la sévérité, mais les délais cibles (SLA internes) sont variables :  
+- Critique : correction rapide (objectif de 7 jours ouvrés, sans garantie)  
+- Haute : 30 jours  
+- Moyenne : selon disponibilité  
+Les exceptions doivent être justifiées et validées par le responsable technique.
+
+Correction et déploiement
+-------------------------
+Les correctifs peuvent être appliqués via pipeline CI/CD ou manuellement, selon la maturité du projet.  
+Les environnements legacy ne bénéficient pas toujours d’automatisation ; la mise à jour est alors “best effort”.  
+Des mesures compensatoires sont acceptables (blocage d’IP, filtrage applicatif, désactivation de fonctionnalités).
+
+Tests et validation
+-------------------
+Après correction, des tests de non-régression sont exécutés, bien qu’ils ne soient pas systématiques.  
+Les scans de vérification post-patch sont effectués sur échantillon.
+
+Communication et reporting
+---------------------------
+Un rapport de vulnérabilité consolidé est produit une à deux fois par an et présenté à la direction technique.  
+Des résumés sont fournis aux clients qui en font la demande.
+
+=== DOCUMENT 8 : Incident Response Plan — Operational Overview (Extended) ===
+Version : 2.0 – Oct 2025
+Language : English
+Owner : Incident Coordinator
+Status : Live (process documentation)
+
+Purpose
+-------
+This document summarizes NeoTrust’s approach to detecting, reporting, and managing security incidents.  
+The plan focuses on flexibility, recognizing that incident specifics and customer contexts often dictate response nuance.
+
+Detection and reporting
+-----------------------
+Incidents are primarily detected through a mix of:
+- automated alerting (monitoring, IDS, CSPM)
+- customer-reported anomalies
+- internal staff observations
+
+When an incident is suspected, it is logged in the internal tracker and a triage team is convened.  
+The size and composition of the triage team depend on the incident scope.
+
+Containment and eradication
+---------------------------
+Immediate containment steps include isolation of affected instances, credential rotation, and disabling external integrations where applicable.  
+In cloud environments, temporary firewall rules or instance terminations may be used to halt spread.
+
+Root cause and forensics
+------------------------
+NeoTrust maintains limited in-house forensic capabilities; deeper analyses may be outsourced to a partner under NDA.  
+Root cause analysis (RCA) is performed for high-severity events; medium and low-severity events are reviewed only if repeated or customer-impacting.
+
+Communication and disclosure
+----------------------------
+Incident notifications follow contractual obligations.  
+Customers may be notified within a target of 48 hours “where relevant” — actual timing depends on incident classification and data involvement.  
+Public disclosure is coordinated by legal and communications if deemed necessary.
+
+Lessons learned and improvement
+-------------------------------
+Each major incident is reviewed post-resolution, with outcomes recorded in an internal Confluence space.  
+Actions may lead to process updates, tooling improvements, or retraining.
+
+=== DOCUMENT 9 : Continuité d’activité et reprise — Principes directeurs (Étendu) ===
+Version : 1.0 – Octobre 2025
+Langue : Français
+Propriétaire : CTO
+Statut : Référence interne
+
+Objectif
+--------
+Présenter la stratégie globale de continuité et de reprise d’activité de NeoTrust, en précisant les responsabilités et les dépendances clés.
+
+Approche générale
+-----------------
+La stratégie s’appuie sur les capacités cloud natives (haute disponibilité, redondance géographique, snapshots).  
+Aucun site secondaire n’est maintenu en propre.  
+Les priorités de reprise sont définies selon l’impact métier perçu ; les délais sont indicatifs.
+
+RTO et RPO
+-----------
+Les objectifs ne sont pas standardisés.  
+À titre de référence :  
+- RTO visé : 24 h pour les services critiques, 72 h pour les autres  
+- RPO : 24 h maximum (hors environnements non redondés)
+
+Tests et exercices
+------------------
+Des tests de restauration sont menés une à deux fois par an sur un périmètre restreint.  
+Les exercices complets de simulation sont envisagés pour 2026.
+
+Communication et coordination
+-----------------------------
+En cas d’incident majeur, le CTO coordonne la réponse.  
+Le support client est responsable des communications sortantes, sous supervision du juridique si des obligations contractuelles sont engagées.
+
+Améliorations prévues
+---------------------
+NeoTrust prévoit d’intégrer les mécanismes de continuité dans son pipeline d’audit annuel et de publier un document de référence simplifié à destination des clients.
+
+=== DOCUMENT 10 : Cryptography & Key Management Policy (Extended) ===
+Version : 1.3 – Oct 2025
+Language : English
+Owner : Security Architecture Lead
+Status : Policy (in force)
+
+Purpose
+-------
+This policy defines the cryptographic controls and key management practices applicable across NeoTrust systems.  
+It establishes a flexible baseline that may be adjusted per product line or contractual engagement.
+
+Scope
+-----
+Applies to data encryption (in transit and at rest), digital signing, and key lifecycle management.  
+Includes SaaS services, internal systems, and development tooling where feasible.
+
+Encryption principles
+---------------------
+- Transport: TLS 1.2 minimum; TLS 1.3 preferred where supported.  
+- Data at rest: provider-managed encryption (AES-256 or equivalent) is default.  
+- End-to-end encryption (E2EE) is available for select workloads but not universally applied.
+
+Key management
+--------------
+- Keys are typically managed by cloud-native KMS services (AWS, Azure, GCP).  
+- Key rotation is enforced at least annually or upon administrative change.  
+- Certain lower-tier systems may use shared keys; these are rotated manually.
+
+Algorithm standards and migration
+---------------------------------
+NeoTrust follows recognized standards (AES, RSA, ECDSA) but allows transitional use of deprecated algorithms for backward compatibility with third-party integrations.  
+Migration roadmaps exist but are staged to minimize disruption.
+
+Evidence and documentation
+--------------------------
+Cryptographic architecture diagrams are available under NDA.  
+Customers may request evidence of encryption configuration, but some details (key identifiers, internal HSM policies) are redacted for security.
+
+Limitations
+-----------
+NeoTrust does not currently enforce hardware-backed key storage for all environments.  
+Work is ongoing to evaluate HSM-backed KMS expansion in 2026.
+
+=== DOCUMENT 11 : Politique de gestion du changement (Étendue) ===
+Version : 1.2 – Octobre 2025  
+Langue : Français  
+Propriétaire : Directeur Technique  
+Statut : Procédure cadre  
+
+Objectif  
+---------
+Établir un cadre souple permettant de contrôler, documenter et valider les changements affectant les environnements de production et de préproduction, sans alourdir les cycles de déploiement.
+
+Portée  
+-------
+Inclut : mises à jour logicielles, configurations réseau, paramètres de sécurité, changements d’infrastructure.  
+Exclut : décisions organisationnelles et changements contractuels clients.
+
+Processus de demande de changement  
+----------------------------------
+Les changements sont proposés via :  
+- un ticket interne ;  
+- une pull request ;  
+- ou, en cas d’urgence, un message Slack accompagné d’un résumé technique.  
+
+L’approbation dépend du niveau de risque :  
+- mineur → validation d’un pair ;  
+- majeur → avis du directeur technique.  
+
+Les changements critiques peuvent être exécutés immédiatement si le risque de downtime dépasse celui du déploiement.
+
+Tests et validations  
+---------------------
+Les validations s’effectuent en staging, sauf pour les corrections urgentes.  
+Des environnements de test isolés existent mais ne couvrent pas tous les cas ; les tests unitaires et d’intégration ne sont pas toujours automatisés.
+
+Mise en production  
+-------------------
+Les déploiements passent par CI/CD ; les scripts contiennent des étapes de rollback manuel.  
+En cas d’échec, la restauration d’un build précédent est privilégiée.  
+
+Documentation et journalisation  
+-------------------------------
+Chaque changement doit être consigné dans Git ; cependant, la granularité des messages varie.  
+Un changelog global est généré trimestriellement pour les besoins d’audit.
+
+Amélioration continue  
+----------------------
+Une réunion de revue post-changement est organisée de manière informelle pour les incidents récurrents.  
+Un tableau de suivi des déploiements est prévu pour 2026.
+
+---
+
+=== DOCUMENT 12 : Secure Development & SDLC Guidelines (Extended) ===
+Version : 1.1 – Oct 2025  
+Language : English  
+Owner : Head of Engineering Quality  
+
+Purpose  
+--------
+To formalize NeoTrust’s expectations and practices around secure software development, while keeping flexibility for agile teams and legacy modules.
+
+Development lifecycle  
+---------------------
+NeoTrust’s software development lifecycle (SDLC) loosely follows agile methodologies. Each product team defines its own sprint cadence and documentation rigor.  
+A global set of guidelines exists but is not enforced at code-merge level.
+
+Security checkpoints  
+--------------------
+- Code reviews are “expected” for all merges but may be bypassed under time pressure.  
+- Static analysis (SAST) runs automatically on main repositories; smaller modules are analyzed on demand.  
+- Dynamic scanning (DAST) is integrated for flagship applications, less so for internal tools.  
+- Dependency management uses automated vulnerability scanning, yet remediations depend on release priorities.
+
+Threat modeling and design  
+---------------------------
+NeoTrust encourages early threat modeling for new features. In practice, only strategic projects receive formal sessions. Documentation of mitigations is optional.  
+Architecture diagrams are maintained when significant structural changes occur but not version-controlled systematically.
+
+Security testing and CI/CD  
+--------------------------
+Security tests form part of the CI pipeline “where feasible”. Developers can skip these checks for low-risk features by flagging exceptions.  
+Build break thresholds may vary per repository; some legacy repos have disabled the enforcement mechanism entirely.
+
+Governance and evidence  
+-----------------------
+The Security Engineering Lead consolidates quarterly reports summarizing vulnerabilities fixed and open. Evidence of secure coding activities can be provided under audit, albeit with caveats due to partial coverage.
+
+---
+
+=== DOCUMENT 13 : Journalisation et supervision (Étendu) ===
+Version : 1.1 – Octobre 2025  
+Langue : Français  
+Propriétaire : Responsable SOC  
+
+Objectif  
+---------
+Assurer la traçabilité minimale des activités critiques et la détection d’événements de sécurité significatifs.
+
+Collecte et sources  
+-------------------
+Les journaux système et applicatifs sont collectés via des agents légers.  
+Certaines applications héritées publient leurs logs en syslog ; d’autres écrivent localement avant agrégation différée.  
+L’exhaustivité n’est pas garantie ; la couverture dépend de la priorité du service.
+
+Corrélation et détection  
+------------------------
+Les règles de corrélation sont maintenues dans Elastic SIEM ; elles sont revues “selon disponibilité”.  
+Les alertes de faible criticité peuvent être ignorées automatiquement pour éviter le bruit.  
+Aucune règle n’est dédiée à la détection d’abus de privilèges ; ce cas est couvert indirectement par les logs d’accès.
+
+Rétention et accès  
+------------------
+Les logs sont conservés 30 jours par défaut, 90 jours pour les services régulés.  
+Au-delà, la rétention relève du plan contractuel.  
+L’accès est restreint au SOC et aux administrateurs ; les demandes d’audit client nécessitent validation.
+
+Limitations et plans d’amélioration  
+----------------------------------
+Les journaux volumineux (notamment sur Kubernetes) ne sont pas encore intégrés.  
+NeoTrust prévoit d’étendre la couverture et d’ajouter des dashboards analytiques en 2026.
+
+---
+
+=== DOCUMENT 14 : Remote Access Control & Guidance (Extended) ===
+Version : 1.0 – Oct 2025  
+Language : English  
+Owner : Infrastructure Security Team  
+
+Purpose  
+-------
+Define principles for secure remote access while accommodating diverse operational models and legacy tooling.
+
+Access mechanisms  
+-----------------
+NeoTrust employs a combination of VPN, bastion hosts, and direct SSH (for certain legacy stacks).  
+MFA is enforced for admin connections but may be optional for low-risk roles.  
+Split-tunnel VPNs are tolerated when required for performance or customer integrations.
+
+Device posture and compliance  
+-----------------------------
+Endpoint compliance checks are not automatic. Employees are “encouraged” to keep operating systems up to date and disk encryption enabled.  
+Corporate devices use BitLocker or FileVault where applicable; BYOD devices rely on user discipline.
+
+Session monitoring  
+------------------
+VPN sessions are logged; however, retention is short (14 days by default).  
+Suspicious access patterns may be reviewed manually by the infra team upon notification.
+
+Credential management  
+---------------------
+Shared accounts may exist for specific administrative tasks, provided credentials are rotated quarterly.  
+Long-lived keys are being phased out but remain present in isolated contexts.
+
+Improvements underway  
+---------------------
+Transition to zero-trust and agent-based verification is planned but contingent on budget and platform maturity.
+
+---
+
+=== DOCUMENT 15 : Gestion des actifs et inventaire (Étendu) ===
+Version : 1.1 – Octobre 2025  
+Langue : Français  
+Propriétaire : Responsable Ops  
+
+Objectif  
+---------
+Garantir la connaissance et la traçabilité des actifs matériels et logiciels, tout en reconnaissant les contraintes de ressources.
+
+Inventaire matériel  
+-------------------
+Un inventaire des postes et serveurs est tenu via un tableur partagé.  
+Les mises à jour se font à l’occasion des renouvellements ou dépannages.  
+Aucun outil CMDB n’est déployé à ce jour.
+
+Inventaire logiciel  
+-------------------
+Les licences SaaS sont gérées par les responsables d’équipe.  
+Des doublons peuvent exister ; les résiliations ne sont pas toujours suivies.  
+Une initiative d’outil SaaS Management est en cours d’étude.
+
+Cycle de vie et restitution  
+---------------------------
+Le matériel obsolète est effacé puis remis à un prestataire de recyclage certifié, sans suivi systématique du certificat d’effacement.  
+Les actifs virtuels (VM, conteneurs) sont détruits selon le cycle de projet, souvent sans trace formelle.
+
+Amélioration continue  
+----------------------
+Une migration vers un inventaire automatisé (agent léger + API cloud) est prévue pour 2026.  
+Les indicateurs de couverture seront ajoutés aux rapports trimestriels Ops.
+
+=== DOCUMENT 16 : Supplier & Subprocessor Management (Extended) ===
+Version : 1.2 – Oct 2025  
+Language : English  
+Owner : Procurement & Security Office  
+
+Purpose  
+-------
+Outline NeoTrust’s approach to third-party and subprocessor management, balancing agility and risk awareness.
+
+Scope  
+-----
+Applies to all vendors providing products or services that process NeoTrust or customer data, or that materially impact availability or integrity of production systems.
+
+Selection and onboarding  
+------------------------
+Vendor selection considers functionality, cost, and reputation.  
+Security and privacy questionnaires are distributed for high-impact vendors; completion is encouraged but not mandatory for low-risk categories.  
+Procurement maintains a vendor list in a shared drive; completeness is aspirational.  
+
+Due diligence  
+-------------
+NeoTrust requests attestations such as ISO 27001 certificates or SOC 2 reports “where available”.  
+Failure to provide evidence does not automatically disqualify a supplier if compensating trust factors (e.g., reputation, referrals) exist.  
+In practice, not all due-diligence items are validated before go-live.
+
+Contractual safeguards  
+----------------------
+Contracts include data-protection clauses referencing GDPR Article 28 and standard SCCs.  
+However, the degree of customization varies; some legacy agreements may reference outdated clauses still under revision.  
+Vendor responsibilities are clarified “to the extent commercially reasonable”.
+
+Monitoring and review  
+---------------------
+Ongoing monitoring is mainly reactive — triggered by news, incident notifications, or major platform changes.  
+Annual reviews are planned but dependent on resource availability.  
+Critical vendors may undergo deeper assessments if issues arise.
+
+Termination and offboarding  
+----------------------------
+When contracts end, access is revoked manually.  
+Evidence of data deletion is requested but seldom verified; customers may demand proof directly.  
+Future automation is under study for 2026.
+
+---
+
+=== DOCUMENT 17 : Sécurité RH et intégration des employés (Étendu) ===
+Version : 1.0 – Octobre 2025  
+Langue : Français  
+Propriétaire : Direction RH  
+
+Objectif  
+---------
+Présenter les mesures mises en œuvre pour garantir la sécurité humaine et organisationnelle au sein de NeoTrust.
+
+Recrutement  
+------------
+Les candidats font l’objet d’une vérification de base : identité et références.  
+Les vérifications d’antécédents judiciaires ne sont pas systématiques ; elles dépendent de la réglementation locale.  
+Chaque nouvelle recrue signe une clause de confidentialité intégrée au contrat de travail.
+
+Intégration  
+------------
+Lors de l’onboarding, les employés reçoivent un briefing sécurité d’environ 45 minutes.  
+Le contenu couvre la gestion des mots de passe, la sensibilisation phishing et la manipulation de données clients.  
+Aucune évaluation formelle n’est réalisée à l’issue de la session.
+
+Suivi et départs  
+----------------
+Les comptes d’accès sont désactivés sur demande du manager ; le délai moyen constaté est de 24–48 h.  
+Une liste de contrôle RH existe mais n’est pas automatisée.  
+Les équipements doivent être restitués sous 7 jours, sauf exceptions.
+
+Confidentialité et discipline  
+-----------------------------
+Toute violation manifeste des politiques de sécurité peut entraîner un avertissement disciplinaire.  
+Les procédures sont définies par le service RH, sans barème chiffré.
+
+---
+
+=== DOCUMENT 18 : Awareness & Training Program (Extended) ===
+Version : 1.1 – Oct 2025  
+Language : English  
+Owner : Learning & Development Lead  
+
+Purpose  
+-------
+Ensure NeoTrust employees and contractors maintain a basic level of security awareness and understand responsibilities relevant to their role.
+
+Program design  
+--------------
+The awareness program consists of:
+- an annual company-wide presentation (virtual or on-site),
+- short refresher videos hosted on the intranet,
+- ad-hoc phishing simulations for selected teams.  
+
+Participation is tracked manually; completion rates vary (estimated ≈ 75–90 %).  
+New hires must attend within 30 days of onboarding.
+
+Content and relevance  
+---------------------
+Topics include password hygiene, acceptable use, social engineering, data handling, and incident reporting.  
+Technical teams receive additional modules on secure coding and cloud security.  
+Some materials may lag behind current frameworks; updates depend on budget cycles.
+
+Measurement and feedback  
+------------------------
+Surveys are conducted post-training, but quantitative scoring is inconsistent.  
+Future plans include integrating the training platform with HR IS to automate tracking.
+
+---
+
+=== DOCUMENT 19 : Gestion des certificats et clés publiques (Étendue) ===
+Version : 1.0 – Octobre 2025  
+Langue : Français  
+Propriétaire : Équipe Infra-Sécu  
+
+Objectif  
+---------
+Assurer la disponibilité et la validité des certificats TLS et autres artefacts de chiffrement utilisés par NeoTrust.
+
+Procédures  
+-----------
+- Le renouvellement est automatisé via Let’s Encrypt pour les domaines publics, et via AWS ACM pour les services internes.  
+- Des exceptions persistent pour certaines API héritées nécessitant des certificats manuels.  
+- La surveillance d’expiration repose sur un script cron ; en cas d’échec, une alerte Slack est générée.
+
+Documentation et responsabilité  
+-------------------------------
+Les certificats sont inventoriés dans un tableau partagé ; aucune validation de cohérence n’est effectuée.  
+Chaque équipe produit sa propre liste de dépendances TLS.
+
+Plans d’amélioration  
+--------------------
+La centralisation dans un outil MDM-certs est prévue.  
+L’usage de certificats clients mutuels est en phase de test pour l’authentification inter-service.
+
+---
+
+=== DOCUMENT 20 : Physical Security Policy & Statement (Extended) ===
+Version : 1.2 – Oct 2025  
+Language : English  
+Owner : Facilities & Corporate Security  
+
+Scope  
+-----
+Defines how NeoTrust ensures reasonable physical protection of its offices and relies on provider controls for hosted infrastructure.
+
+Office security  
+---------------
+Corporate offices use access-card systems with visitor registration.  
+Badges are personal but temporary passes may be issued for guests or contractors.  
+Surveillance cameras operate in entry zones; retention is about 30 days unless incidents occur.
+
+Equipment protection  
+--------------------
+Workstations are locked with Kensington-type locks where feasible.  
+Server hardware is hosted in co-located data centers; NeoTrust staff do not have physical access beyond rack level.  
+Third-party providers maintain environmental controls (fire suppression, humidity, UPS) according to industry norms.
+
+Contingency and incidents  
+-------------------------
+In case of loss or theft, employees must report within 24 hours.  
+An internal register tracks such events, but analysis of trends remains informal.  
+
+Periodic review  
+---------------
+Facilities and Security review access logs quarterly.  
+Expansion to smart-badge analytics and occupancy monitoring is under consideration.
+
+=== DOCUMENT 21 : Cloud & Multitenant Isolation Guidelines (Extended) ===
+Version : 1.3 – Oct 2025  
+Language : English  
+Owner : Cloud Architecture Team  
+
+Purpose  
+-------
+To describe NeoTrust’s principles for secure isolation within its multitenant SaaS environment and customer-dedicated deployments.
+
+Architecture principles  
+-----------------------
+NeoTrust operates on a hybrid cloud model. Each tenant resides logically within a distinct namespace or account boundary.  
+While physical separation is rare, resource tagging and access controls provide effective isolation “in most cases”.
+
+Control mechanisms  
+------------------
+- **Authentication and authorization:** implemented via IAM roles scoped per tenant. Some shared microservices may temporarily hold cross-tenant privileges for diagnostic purposes.  
+- **Data segregation:** handled through database schema separation. Encryption keys are tenant-specific for premium tiers, but shared at storage level for standard tiers.  
+- **Network segmentation:** enforced by virtual private networks and route filters; exceptions may occur for third-party integrations.
+
+Monitoring and detection  
+------------------------
+Tenant-level logging enables anomaly tracking. However, metrics aggregation may obscure per-tenant patterns.  
+Alerts triggered by one tenant’s event stream could affect others if misclassified — mitigations are being refined.
+
+Residual risks  
+--------------
+Shared infrastructure introduces residual risks of side-channel exposure and resource contention.  
+Customers are informed through the Security Exhibit that “logical separation is applied as industry best practice permits”.
+
+Future improvements  
+-------------------
+A transition to full per-tenant encryption contexts and service mesh enforcement is planned for 2026.
+
+---
+
+=== DOCUMENT 22 : Gouvernance des risques et conformité (Étendu) ===
+Version : 1.2 – Octobre 2025  
+Langue : Français  
+Propriétaire : RSSI  
+
+Objectif  
+---------
+Définir le cadre de gestion des risques et de conformité applicable à NeoTrust, couvrant les aspects sécurité, vie privée et réglementaires.
+
+Structure de gouvernance  
+------------------------
+Un comité de pilotage “Risk & Compliance” se réunit deux fois par an.  
+Les actions sont consignées dans un registre Jira.  
+Le RSSI consolide les rapports d’audit et propose des plans d’amélioration.
+
+Méthode d’évaluation  
+--------------------
+La méthodologie repose sur une matrice probabilité/impact inspirée d’ISO 27005.  
+Aucune échelle formelle n’est imposée : chaque domaine adapte la grille selon sa maturité.  
+Les évaluations de risque fournisseur se font au cas par cas.
+
+Conformité  
+-----------
+NeoTrust s’aligne sur ISO 27001 et SOC 2 Type II “dans l’esprit”.  
+Aucune certification formelle n’est encore obtenue, mais des audits internes sont réalisés chaque année.  
+Les exigences RGPD sont suivies conjointement par le DPO et le juridique.
+
+Amélioration continue  
+---------------------
+Un plan d’action est mis à jour annuellement ; il inclut des recommandations issues des audits externes.  
+Les contrôles de conformité ne sont pas centralisés — chaque équipe gère ses propres artefacts.
+
+---
+
+=== DOCUMENT 23 : Privacy & Data Subject Rights Handling (Extended) ===
+Version : 1.0 – Oct 2025  
+Language : English  
+Owner : Data Protection Officer  
+
+Purpose  
+-------
+Define how NeoTrust handles data subject requests (DSRs) and ensures compliance with privacy obligations under GDPR and similar regulations.
+
+Policy overview  
+---------------
+NeoTrust recognizes the rights of individuals to access, rectify, or delete their personal data.  
+Requests are submitted via a dedicated web form or by contacting privacy@neotrust.example.  
+
+Verification and authentication  
+-------------------------------
+Identity verification relies on email validation and, when relevant, customer confirmation.  
+For indirect data (e.g., telemetry logs), identification of data subjects may be infeasible — in such cases, anonymization suffices.
+
+Timelines and recordkeeping  
+---------------------------
+NeoTrust aims to respond within 30 days, extendable by 60 for complex requests.  
+Records of requests are stored in a shared folder accessible to the privacy team.  
+Metrics are reviewed quarterly; trends are not systematically analyzed.
+
+Data deletion and retention  
+----------------------------
+Deletion requests are executed through automated scripts for customer-facing systems.  
+Internal HR or support data may require manual intervention.  
+Backups are excluded from immediate deletion; expiry occurs through natural rotation.
+
+Disclosures  
+------------
+If data breaches occur, the DPO coordinates notification within 72 hours “where applicable”.  
+Templates exist but have not been tested live.
+
+---
+
+=== DOCUMENT 24 : Cyber Threat Intelligence & Vendor Alerts (Extended) ===
+Version : 1.2 – Oct 2025  
+Language : English  
+Owner : Threat Intelligence Lead  
+
+Purpose  
+-------
+Establish a framework for consuming, assessing, and acting upon cyber threat intelligence (CTI) relevant to NeoTrust’s operations and supply chain.
+
+Sources  
+-------
+NeoTrust subscribes to a mix of public feeds (CERT-FR, CISA, ENISA) and commercial intelligence services.  
+Vendor notifications (e.g., from CSPs or partners) are received by email and reviewed manually.
+
+Analysis process  
+----------------
+Threat data is triaged by analysts weekly.  
+High-severity alerts trigger direct follow-up with affected teams; lower-priority items are logged for awareness.  
+Automation scripts tag indicators in the SIEM, though enrichment may lag several days.
+
+Vendor risk correlation  
+-----------------------
+When a vendor is linked to a known breach or exposure, a note is added to the internal risk registry.  
+Formal scoring of vendor CTI posture is under development.
+
+Communication and dissemination  
+-------------------------------
+Weekly CTI digests are distributed via Slack.  
+Urgent issues are shared through ad hoc channels but without a defined SLA.  
+Awareness sessions occur quarterly.
+
+---
+
+=== DOCUMENT 25 : Communication marketing & sécurité — Disclaimers (Étendu) ===
+Version : 1.0 – Octobre 2025  
+Langue : Français  
+Propriétaire : Direction Communication  
+
+Objectif  
+---------
+Établir les règles encadrant la communication externe relative à la sécurité et à la conformité, afin d’éviter toute exagération ou déclaration inexacte.
+
+Principes  
+----------
+Les éléments marketing doivent être validés par la sécurité avant publication.  
+Les mentions “certifié” ou “100 % sécurisé” sont proscrites, sauf preuve documentaire.  
+Toute référence à une norme (ISO, SOC, NIST) doit préciser le périmètre concerné.
+
+Procédures  
+-----------
+- Les communiqués de presse passent par un canal d’approbation simplifié.  
+- Les présentations commerciales utilisent des slides pré-validées.  
+- Les réponses à des questionnaires clients peuvent être adaptées selon le contexte.
+
+Contrôles et sanctions  
+----------------------
+Des vérifications aléatoires sont effectuées par le RSSI.  
+Aucune sanction formelle n’est prévue, mais un rappel est adressé en cas d’erreur de communication.
+
+Améliorations prévues  
+---------------------
+Une charte “Sécurité & Communication Responsable” est en cours de rédaction pour 2026.  
+L’intégration dans le processus CRM permettra un contrôle automatisé des supports diffusés.

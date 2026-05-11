@@ -1,0 +1,174 @@
+Control_ID;Complément prompt;Prompt exclusion
+ACH-01;"ACH-01 évalue si l’entité évaluée gère ses risques cyber sécurité vis à vis de ses propres sous-traitants (Tier-N).
+
+Contexte TPRM :
+
+- L'entité évaluée est : <EVALUATED_ENTITY_NAME>.
+- Dans ce document, <EVALUATED_ENTITY_NAME> peut être appelée ""the Provider"", ""the Supplier"", ""the Service Provider"", ""we"", ""our company"", etc.
+- Tu dois évaluer comment <EVALUATED_ENTITY_NAME> gère la sécurité de SES PROPRES sous-traitants et fournisseurs (ses third parties à elle).
+
+Important :
+- Quand le texte parle des ""customers"" ou ""clients"" de <EVALUATED_ENTITY_NAME>, ce sont les clients, pas l'entité évaluée.
+- Quand le texte parle des ""suppliers"", ""subcontractors"", ""third-party providers"" de <EVALUATED_ENTITY_NAME>, ce sont les sous-traitants à considérer pour ACH-01.
+- Ne prends PAS en compte les fournisseurs des clients de <EVALUATED_ENTITY_NAME> pour ce contrôle.";
+ACH-02;"ACH-02 évalue si l’entité évaluée inclut des clauses de sécurité explicites dans les contrats qu’elle signe avec ses propres sous-traitants (Tier-N).
+
+Contexte TPRM :
+- L'entité évaluée est : <EVALUATED_ENTITY_NAME>.
+- Dans ce document, <EVALUATED_ENTITY_NAME> peut être appelée ""the Provider"", ""the Supplier"", ""the Service Provider"", ""we"", ""our company"", etc.
+- Tu dois évaluer comment <EVALUATED_ENTITY_NAME> gère la sécurité de SES PROPRES sous-traitants et fournisseurs (ses third parties à elle).
+
+Important :
+- Quand le texte parle des ""customers"" ou ""clients"" de <EVALUATED_ENTITY_NAME>, ce sont les clients, pas l'entité évaluée.
+- Quand le texte parle des ""suppliers"", ""subcontractors"", ""third-party providers"" de <EVALUATED_ENTITY_NAME>, ce sont les sous-traitants à considérer pour ACH-01.
+- Ne prends PAS en compte les fournisseurs des clients de <EVALUATED_ENTITY_NAME> pour ce contrôle.";"Ce qui ne compte PAS comme preuve pour ACH-02 :
+- Clauses ou obligations figurant dans les contrats entre l’entité évaluée et ses clients.
+- Clauses imposées par les clients à l’entité évaluée (ex: “customers may audit us”).
+- Exigences contractuelles appliquées par les clients à leurs propres fournisseurs.
+- Mentions génériques non actionnables (“security is considered”, “industry standards apply”).
+- Mentions non liées à la sécurité contractuelle (SLA, performance, disponibilité, support).
+- Mentions liées uniquement à la conformité légale ou GDPR sans clause contractuelle dédiée.
+- NDA / confidentialité standard (ne valide pas `security_clauses` ou `right_to_audit`)."
+DATA-01;DATA-01 évalue le niveau de chiffrement des communications en transit. Ce contrôle porte uniquement sur les protocoles et mécanismes utilisés pour sécuriser les flux réseau (TLS), y compris la version minimale acceptée, l’activation de la Perfect Forward Secrecy (PFS) et l’application de HTTP Strict Transport Security (HSTS) lorsque le protocole HTTP est utilisé.;"Ce qui ne compte PAS comme preuve pour DATA-01 :
+- Mentions de TLS/HSTS/PFS relatives aux clients ou à leurs propres environnements.
+- Mentions génériques (“secure connection”, “encrypted endpoints”, “HTTPS is supported”) sans détail technique.
+- Mention de chiffrements non liés à TLS (VPN, SFTP, SSH, IPSec…).
+- Mention d’options ou capacités (“CDN supports HSTS”, “TLS 1.2 available”) sans preuve d’activation.
+- Politiques externes au fournisseur (ex : exigences de sécurité des clients)."
+DATA-02;DATA-02 évalue si l’entité évaluée chiffre les données au repos (disques, bases de données, stockages) et dans quel périmètre (toutes les données, production uniquement ou partiel).;Ce qui ne compte PAS comme preuve pour DATA-02 : mentions de chiffrement uniquement en transit (TLS, HTTPS, VPN), chiffrement effectué uniquement côté client et non géré par l’entité évaluée, ou références génériques à la conformité (par exemple GDPR) sans indication explicite que les données au repos sont chiffrées.
+DATA-03;"DATA-03 évalue la configuration explicite de SPF, DKIM et DMARC pour les domaines email appartenant à l’entité évaluée.
+Le contrôle repose uniquement sur des éléments techniques vérifiables : enregistrements DNS, politiques DMARC, clefs DKIM, paramètres d’alignement et adresses de reporting.
+Seules les informations décrivant la configuration du domaine de l’entité évaluée doivent être prises en compte.";"Ce qui ne compte PAS comme preuve pour DATA-03 :
+– mentions génériques d’“email security”, “anti-spam”, “secure email gateway”, “phishing protection” ;
+– description du filtrage entrant (spam/virus) sans information sur SPF/DKIM/DMARC ;
+– mentions de politiques email des clients ou partenaires ;
+– configuration email d’un tiers (cloud provider, SaaS mail gateway) si rien n’indique que le domaine de l'entité évaluée l’utilise pour publier SPF/DKIM/DMARC ;
+– marketing ou conformité floue (“industry standard email security”) sans paramètres DNS explicites."
+ENDP-01;ENDP-01 évalue la protection des postes de travail et serveurs de l’entité évaluée : présence d’un antivirus “seul” ou d’une solution EDR plus avancée, gestion centralisée des protections, et activation d’un pare-feu local sur les endpoints.;"Ce qui ne compte PAS comme preuve pour ENDP-01 :
+– mentions génériques de “secure endpoints” ou “endpoint protection” sans indication claire d’antivirus, EDR ou firewall ;
+– protections réseau périmétriques (firewall réseau, WAF) qui ne sont pas déployées directement sur les postes ou les serveurs ;
+– solutions de MDM ou de gestion de flotte qui ne mentionnent pas explicitement des fonctions de sécurité (antivirus, EDR, firewall) ;
+– configurations manuelles décrites pour un sous-ensemble de postes uniquement à des fins de test ;
+– protections installées uniquement sur les postes des clients (et non sur les systèmes gérés par l’entité évaluée)."
+ENDP-02;ENDP-02 évalue la protection des postes utilisateurs via chiffrement complet du disque (FDE) : activation effective du FDE sur les workstations, périmètre de déploiement (tous les postes ou seulement une partie) et gestion des clés de récupération. Les serveurs ne sont pas couverts par ce contrôle.;"Ce qui ne compte PAS comme preuve :
+– mentions de chiffrement réseau ou TLS ;
+– chiffrement applicatif ;
+– chiffrement sur des serveurs hors périmètre poste de travail ;
+– mentions marketing non techniques (“encrypted by design”)."
+ENDP-03;ENDP-03 évalue le durcissement (hardening) des systèmes de l’entité évaluée. Il couvre : l’existence d’une baseline de configuration sécurisée, l’utilisation de standards de référence (CIS, baselines éditeur), la restriction des droits administrateur locaux, le contrôle des périphériques (USB, médias amovibles), le contrôle applicatif (allowlisting/denylisting) et le périmètre de couverture (postes utilisateurs, serveurs, ou l’ensemble des systèmes).;"Les éléments suivants ne doivent PAS être considérés comme des preuves pour ENDP-03 :
+– les informations relatives au patch management ou à la gestion des vulnérabilités (ENDP-04 / ENDP-05) ;
+– les solutions de protection des endpoints (EDR, antivirus, firewall) qui relèvent d’ENDP-01 ;
+– les mesures de sécurité réseau ou périmétrique ;
+– les déclarations vagues ou marketing de type “nos systèmes sont sécurisés” sans référence explicite à un hardening ;
+– les pratiques de configuration appliquées par des clients, partenaires ou fournisseurs cloud (hors périmètre des systèmes de l’entité évaluée)."
+GOV-01;GOV-01 évalue l’existence d’une Information Security Policy (ISP), sa revue périodique, l’identification de son propriétaire et son approbation par la direction.;"Ne pas considérer comme preuves :
+– les politiques non liées à la sécurité (RH, data privacy, usage acceptable, qualité),
+– les procédures ou standards opérationnels sans référence à une ISP,
+– les politiques de sécurité fournies par des clients ou tiers,
+– les déclarations vagues (“we maintain security policies”) sans document formel."
+GOV-02;GOV-02 évalue la désignation d’un responsable de la sécurité (CISO/RSSI ou équivalent), la documentation de ses responsabilités, l’assignation formelle de la responsabilité sécurité et son rattachement hiérarchique vis-à-vis de la direction.;"Ne pas considérer comme preuves :
+– les équipes techniques générales sans rôle sécurité formalisé,
+– les responsabilités sécurité assignées à des prestataires externes uniquement,
+– les descriptions marketing (“we have a security team”),
+– les responsabilités implicites ou non formalisées."
+GOV-03;GOV-03 évalue la présence d’un processus formel d’analyse des risques, la fréquence de réalisation, la méthodologie utilisée, l’existence d’une identification structurée des risques et la présence d’un registre de risques.;"Ne pas considérer comme preuves :
+– les risques liés uniquement aux prestataires (TPRM),
+– les risques métiers sans lien avec la sécurité de l’information,
+– les risques RGPD isolés,
+– les analyses de menaces ou pentests (hors processus d’analyse des risques),
+– les vagues mentions de “risk management” sans détails concrets."
+IAM-01;IAM-01 évalue la mise en place de l’authentification multi-facteur (MFA) pour les utilisateurs internes de l’entité évaluée (administrateurs et utilisateurs standards), le périmètre de couverture (comptes admin uniquement, tous les utilisateurs, périmètre partiel ou aucun), ainsi que la robustesse des méthodes MFA (facteurs forts vs SMS ou équivalents).;"Ne doivent PAS être considérés comme des preuves pour IAM-01 :
+– la MFA utilisée uniquement pour les clients ou utilisateurs finaux des services du fournisseur (B2B/B2C),
+– la MFA liée à des parcours de paiement (3-D Secure, SCA bancaire),
+– les mécanismes d’authentification gérés par un tiers pour ses propres comptes (par exemple comptes Microsoft, Google ou IdP client) sans politique propre à l’entité évaluée,
+– les mentions génériques de “strong authentication” sans indication que cela s’applique aux utilisateurs internes de l’entité évaluée,
+– la MFA appliquée uniquement à des environnements de test ou de démonstration."
+IAM-02;IAM-02 évalue la formalisation du cycle de vie des identités (Joiner-Mover-Leaver), le niveau d’automatisation du provisioning et du déprovisioning, ainsi que la rapidité de désactivation des comptes lors des départs. Seules les pratiques internes de l’entité évaluée sont considérées.;"Ne doivent pas être considérés comme preuves :
+– les processus JML appliqués aux clients ou utilisateurs externes,
+– les workflows RH sans lien direct avec la gestion des accès,
+– la gestion des accès pour les comptes applicatifs sans processus JML associé,
+– les audits externes ou tests ponctuels non liés au processus de provisioning interne,
+– les mécanismes de recertification (traités dans un contrôle distinct)."
+IAM-03;IAM-03 évalue l’existence d’un dispositif de gestion des accès privilégiés (PAM), la supervision ou l’enregistrement des sessions administratives, et la présence éventuelle d’un mécanisme d’accès d’urgence (“break-glass”) documenté et contrôlé.;"Ne pas considérer comme preuves :
+– la MFA appliquée aux administrateurs (couverte dans IAM-01),
+– les rôles applicatifs (RBAC) qui ne constituent pas un dispositif PAM,
+– la gestion des comptes utilisateurs externes ou clients,
+– les actions d'un prestataire externe non contrôlées par l'entité évaluée,
+– les mentions vagues de “privileged access” sans preuve de mécanisme PAM."
+NET-01;NET-01 évalue la présence d’un pare-feu réseau, l’existence d’un processus contrôlant les changements de règles, la mise en place d’une segmentation réseau, et la présence éventuelle de mécanismes IDS/IPS de détection/prévention d’intrusion.;"Ne pas considérer comme preuves :
+– les web application firewalls (WAF) : couverts dans NET-04,
+– les firewalls applicatifs internes (pas réseau),
+– les règles de sécurité cloud génériques sans notion de firewall,
+– la séparation DEV/TEST/PROD s’il ne s’agit pas de sécurité réseau,
+– les antivirus/EDR (ENDP-xx),
+– les alertes SOC (OPS-04)."
+NET-02;NET-02 évalue la sécurisation des accès distants des utilisateurs internes (non administratifs) : présence de VPN ou de ZTNA, exigence de MFA, restriction de l’accès aux postes gérés (managed devices) et limitation de l’accès à certains réseaux ou zones géographiques.;"Ne doivent pas être considérés comme preuves pour NET-02 :
+– les accès d’administration à distance (couverts par NET-03),
+– les accès de comptes à privilèges gérés via PAM (IAM-03),
+– les portails clients ou accès B2B/B2C,
+– les accès internes sur le réseau local sans notion d’accès distant,
+– les intégrations API ou machine-to-machine."
+NET-03;NET-03 évalue la sécurisation de l’administration distante : existence d’un bastion ou jump host dédié, exigence de MFA pour l’accès administrateur, interdiction ou absence d’accès administratifs directs (VPN ? RDP/SSH), et présence éventuelle de mécanismes de recording ou monitoring des sessions d’administration.;"Ne pas considérer comme preuves :
+– les accès distants d’utilisateurs non administratifs (NET-02),
+– les mécanismes PAM internes (IAM-03) sans lien explicite avec l’administration à distance,
+– les connexions internes LAN,
+– les VPN utilisateurs sans capacité admin,
+– les outils de monitoring/applicatifs ne couvrant pas les sessions d’administration."
+OPS-01;OPS-01 évalue la gestion des incidents de cybersécurité majeurs : existence d’un plan de réponse aux incidents (IRP) dédié aux incidents cyber graves, définition des contacts et de la chaîne d’escalade, réalisation d’exercices test, engagements de notification client en cas d’incident de sécurité, et formalisation claire des rôles et responsabilités. Ce contrôle ne porte pas sur la gestion des incidents de production ou des incidents opérationnels.;"Ne pas considérer comme preuves :
+– les plans de gestion d’incidents opérationnels ou de production non liés à la cybersécurité,
+– les processus ITSM génériques (incident/problem/change),
+– les incidents liés à la qualité de service, aux opérations réseau ou aux applications,
+– les plans de continuité ou de reprise d’activité (BCP/DRP) qui ne concernent pas explicitement les incidents cyber,
+– les engagements contractuels sans lien avec les incidents de cybersécurité,
+– les capacités de détection ou d’alerte (traitées dans OPS-02)."
+OPS-02;OPS-02 évalue les capacités de détection et de réponse du fournisseur : présence d’un SIEM/XDR, existence d’un SOC interne ou d’un service MDR/MSSP, surveillance potentiellement 24/7, capacité du SOC à réaliser des actions de remédiation, et niveau d’automatisation grâce à des solutions de type SOAR. Le contrôle porte exclusivement sur la surveillance et la réponse cyber, et non sur le monitoring opérationnel.;"Ne pas considérer comme preuves :
+– la supervision IT, la disponibilité ou l’APM,
+– les logs techniques non liés à la sécurité,
+– la réponse à des incidents non-cyber (OPS-01 couvre les incidents majeurs),
+– les outils EDR sans contexte SOC,
+– les processus de patching ou vulnérabilité (ENDP-04/05),
+– les protections périmètre (NET-04)."
+OPS-03;OPS-03 évalue les tests de sécurité avancés (penetration testing) et non les scans de vulnérabilités opérationnels.;"Ne pas considérer comme preuves :
+– les scans antivirus ou antimalware,
+– les outils de supervision IT non orientés sécurité,
+– les audits internes de conformité non techniques,
+– les résultats ou analyses EDR non liés à des tests de sécurité,
+– les évaluations clients ou audits due-diligence faits par d’autres entreprises,
+– les tests de charge, de performance ou de qualité applicative,
+– les processus de patching ou de vulnérabilité (ENDP-04 / ENDP-05)."
+RES-01;RES-01 évalue la planification de la continuité et de la reprise d’activité du fournisseur : existence d’un plan de continuité (BCP) et d’un plan de reprise (DRP), réalisation d’une analyse d’impact métier (BIA), et définition d’objectifs de reprise mesurables (RTO et RPO). Ce contrôle porte sur la gouvernance et la formalisation de la résilience métier, et non sur les mécanismes techniques de sauvegarde ou de restauration des données.;"Ne pas considérer comme preuves :
+– les mécanismes de sauvegarde ou de restauration de données (couverts dans DATA-04),
+– les tests de restauration technique des backups,
+– la gestion des incidents de cybersécurité (OPS-01),
+– les capacités SOC ou de détection (OPS-02),
+– les procédures purement IT opérationnelles sans lien avec la continuité métier,
+– les documents non formalisés ou informels ne constituant pas un BCP ou un DRP."
+RES-02;RES-02 évalue la mise à l’épreuve des plans de continuité et de reprise d’activité : réalisation d’exercices BCP/DRP, caractère régulier de ces exercices, et prise en compte des enseignements tirés (retours d’expérience, amélioration continue). Ce contrôle ne couvre pas les tests de restauration de sauvegardes ni la gestion des incidents de cybersécurité.;"Ne pas considérer comme preuves :
+– les tests de restauration de sauvegardes ou de données (couverts dans DATA-04),
+– les exercices de réponse à incident cyber (OPS-01),
+– les tests SOC, red team ou blue team,
+– les tests techniques isolés (patching, failover applicatif non documenté),
+– les exercices ponctuels sans lien avec la continuité ou la reprise d’activité"
+RES-03;RES-03 évalue la capacité organisationnelle du fournisseur à gérer une crise majeure : existence d’un dispositif de gestion de crise, définition claire des rôles et responsabilités, procédures de communication externe en situation de crise, et identification des dépendances critiques pouvant affecter la continuité des activités. Ce contrôle ne porte pas sur la gestion des incidents de cybersécurité ni sur les tests de continuité.;"Ne pas considérer comme preuves :
+– la gestion des incidents de cybersécurité (OPS-01),
+– les exercices de continuité ou de reprise (RES-02),
+– les plans BCP/DRP sans gouvernance de crise associée (RES-01),
+– les procédures de communication opérationnelle hors contexte de crise,
+– les dépendances techniques mineures non qualifiées comme critiques,
+– les descriptions générales d’organisation sans lien avec la gestion de crise."
+TRAIN-01;TRAIN-01 évalue l’existence et la maturité du programme de sensibilisation à la sécurité : présence d’un programme formalisé, caractère récurrent des actions, mise à disposition de supports de sensibilisation, et réalisation récente d’activités de sensibilisation. Ce contrôle porte sur l’ensemble des collaborateurs.;"Ne pas considérer comme preuves :
+– les formations techniques spécialisées (couverts dans TRAIN-02),
+– les communications ponctuelles non rattachées à un programme structuré,
+– les politiques de sécurité sans actions de sensibilisation associées,
+– les statistiques RH ou indicateurs non documentés."
+TRAIN-02;TRAIN-02 évalue la formation sécurité des rôles clés : existence de formations adaptées aux fonctions (équipes IT, opérationnelles, administrateurs, développeurs), couverture des équipes concernées, et nature de la formation (théorique uniquement ou incluant des aspects pratiques). Ce contrôle ne porte pas sur la sensibilisation générale des utilisateurs.;"Ne pas considérer comme preuves :
+– la sensibilisation sécurité générale (couverte dans TRAIN-01),
+– les certifications individuelles ou CV de collaborateurs,
+– les formations techniques non liées à la sécurité,
+– les formations ponctuelles sans lien avec un programme structuré,
+– les formations fournisseurs ou éditeurs sans lien avec les rôles internes."
+TRAIN-03;TRAIN-03 évalue les campagnes de simulation de phishing : existence de simulations, caractère continu ou récurrent de ces campagnes, et présence d’un mécanisme explicite permettant aux utilisateurs de signaler des emails suspects. Ce contrôle ne vise pas à mesurer des taux de clic ou de signalement.;"Ne pas considérer comme preuves :
+– des incidents réels de phishing subis,
+– des statistiques de clic ou de signalement,
+– des communications ponctuelles sans programme de simulation,
+– des mécanismes antispam ou filtrage email sans simulation utilisateur."

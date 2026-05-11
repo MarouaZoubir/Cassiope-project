@@ -1,0 +1,15 @@
+﻿control_id,control_name,slot_key,slot_type,value,answerability,evidence
+ACH-01,Suivi sécurité des sous-traitants,critical_suppliers,bool,False,answerable,No explicit list or register of critical/high-risk suppliers found in the graph.
+ACH-01,Suivi sécurité des sous-traitants,providers_list_only,bool,False,answerable,No pre-approved list of providers or whitelisted vendors mentioned in the graph.
+ACH-01,Suivi sécurité des sous-traitants,security_clauses_subcontracts,bool,False,answerable,No explicit information-security clauses in subcontractor agreements found in the graph.
+ACH-01,Suivi sécurité des sous-traitants,tprm_process,bool,False,answerable,"No formal, documented third-party risk management (TPRM) process found in the graph."
+ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,breach_notification,bool,False,answerable,No requirement for subcontractors to notify of security incidents or data breaches found in the graph.
+ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,nda_only,bool,,unanswerable,"NDA clauses are mentioned in HR-PO-001, but no evidence about exclusivity or absence of other security clauses in subcontractor contracts."
+ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,right_to_audit,bool,False,answerable,No contractual right to audit subcontractors found in the graph.
+ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,security_clauses,bool,False,answerable,No explicit information-security clauses in subcontractor contracts found in the graph.
+DATA-01,Chiffrement en transit (TLS),hsts,bool,False,answerable,No mention of HTTP Strict Transport Security (HSTS) enforcement found in the graph.
+DATA-01,Chiffrement en transit (TLS),pfs,bool,True,answerable,"ECC P-384 and RSA-4096 are used for key exchange, which supports Perfect Forward Secrecy (PFS)."
+DATA-01,Chiffrement en transit (TLS),tls_min_version,enum,1.3,answerable,TLS 1.3 is explicitly mentioned for backup transfer and communications in the graph.
+DATA-02,Chiffrement au repos,algorithms,list[string],"['AES-256', 'RSA-4096', 'ECC P-384']",answerable,"AES-256, RSA-4096, and ECC P-384 are explicitly mentioned for encryption at rest or key exchange."
+DATA-02,Chiffrement au repos,enc_present,bool,True,answerable,"AES-256 is used for encryption at rest (e.g., backup policy, BitLocker)."
+DATA-02,Chiffrement au repos,key_rotation,bool,True,answerable,Control 'Key Rotation' specifies annual rotation or immediate rotation in case of administrator departure.

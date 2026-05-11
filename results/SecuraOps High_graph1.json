@@ -1,0 +1,7235 @@
+{
+  "entities": [
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT1",
+        "title": "Politique de Sécurité de l'Information"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT2",
+        "title": "Politique de Gestion des Accès"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT3",
+        "title": "Politique de Gestion des Mots de Passe"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT4",
+        "title": "Politique de Classification des Données"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "Unspecified"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT5",
+        "title": "Politique de Sauvegarde et Restauration"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT6",
+        "title": "Politique de Sécurité Réseau et Périmètre"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT7",
+        "title": "Politique de Gestion des Vulnérabilités"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT8",
+        "title": "Plan de Réponse aux Incidents de Sécurité"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT9",
+        "title": "Politique de Continuité d’Activité et de Reprise Informatique"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT10",
+        "title": "Politique de Chiffrement et Gestion des Clés"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT11",
+        "title": "Politique de Gestion des Changements"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT12",
+        "title": "Politique de Développement Sécurisé",
+        "version": "",
+        "date": "",
+        "owner": ""
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT13",
+        "title": "Politique de Journalisation et Supervision"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT14",
+        "title": "Politique d’Accès Distant et VPN"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT15",
+        "title": "Politique de Gestion des Actifs"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT16",
+        "title": "Politique de Gestion des Fournisseurs et Sous-Traitants"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT17",
+        "title": "Politique Ressources Humaines et Sécurité"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT18",
+        "title": "Politique de Sensibilisation à la Sécurité"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT19",
+        "title": "Politique de Gestion des Certificats",
+        "version": "",
+        "date": "",
+        "owner": ""
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT20",
+        "title": "Politique de Sécurité Physique"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT21",
+        "title": "Politique Cloud & Environnements Multi-Tenant"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DOCUMENT22",
+        "title": "Politique de Gouvernance des Risques Sécurité"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "SecuraOps",
+        "activity": "supervision de sécurité et de cloud privé",
+        "certifications": "ISO / IEC 27001 : 2022, SOC 2 Type II"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SEC-PO-001",
+        "title": "Politique de Sécurité de l’Information",
+        "version": "2.3",
+        "date": "Octobre 2025",
+        "owner": "Direction de la Sécurité de l’Information (RSSI)"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "Comité de Gouvernance Sécurité & Conformité"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "Comité de Gouvernance Sécurité et Conformité"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Directeur Général"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Responsable de la Sécurité des Systèmes d’Information (RSSI)"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "responsables de domaine (réseau, applicatif, RH, cloud)"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "clients européens",
+        "sector": "finance, énergie, santé"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Azure Key Vault"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Microsoft 365"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Azure Active Directory"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Fortinet"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Elastic Stack"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Suricata"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Azure"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "TLS 1.3"
+      }
+    },
+    {
+      "label": "Algorithm",
+      "properties": {
+        "name": "AES-256"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "ISO / IEC 27001 : 2022",
+        "type": "SMSI"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "SOC 2 Type II"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "RGPD"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "loi Informatique et Libertés"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "directives NIS 2"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "EBIOS RM"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "MITRE DeTT&CTK"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Plan de Continuité d’Activité (PCA)"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Plan de Reprise Informatique (PRI)"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "vulnérabilités critiques (CVSS ≥ 7,0)"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels",
+        "classification": "Public, Interne, Confidentiel, Restreint"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "RTO",
+        "value": "4 heures"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "RPO",
+        "value": "30 minutes"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "DocuSign"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "WORM Azure Blob"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "ANSSI"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "DPO"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "SIEM"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "EDR"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "accord de confidentialité"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Clause de conformité client"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "IAM-PO-001",
+        "title": "Politique de Gestion des Accès",
+        "version": "1.8",
+        "date": "Octobre 2025",
+        "owner": "Responsable IAM"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "SecuraOps"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Azure AD"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Identity Manager"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "MFA"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "ServiceNow"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Azure AD Logs"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "VPN Logs"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Bastion Logs"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Responsable IAM"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "RSSI"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "DSI"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "managers"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "SOC"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "équipe GRC"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "consoles d’administration cloud"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "applications SaaS internes"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "réseaux"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "serveurs"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "outils de supervision"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "bases de données"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "comptes utilisateur"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "break-glass"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "environnements clients"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "IAM-PO-002",
+        "title": "Politique de Gestion des Mots de Passe",
+        "version": "2.1",
+        "date": "Octobre 2025",
+        "owner": "Responsable IAM"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "SHA-512"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "PowerShell"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "SSO"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "mots de passe"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "secrets d’API"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "comptes techniques"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "code source"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "compromission de mot de passe"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "rotation automatique des mots de passe"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "hachage salé des mots de passe"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "MFA pour accès privilégié"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "gestion des secrets d’API dans Azure Key Vault"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "rotation automatisée des secrets via PowerShell"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "changement obligatoire de mot de passe sous 4 heures en cas de compromission"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "module de formation interactif sur les bonnes pratiques"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "longueur minimale des mots de passe"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "complexité des mots de passe"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "réutilisation des anciens mots de passe"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "fréquence de rotation des mots de passe"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "stockage des mots de passe"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "gestion des secrets d’API et comptes techniques"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "signalement de compromission"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DATA-PO-001",
+        "title": "Politique de Classification des Données",
+        "version": "1.6",
+        "date": "Octobre 2025",
+        "owner": "Délégué à la Protection des Données (DPO)"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Délégué à la Protection des Données (DPO)"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "RSSI"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "CISO"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "document"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "base de données"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "support physique"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "données client sensibles"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "chiffrement fort"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "effacement sécurisé (3 passes DoD)"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "broyage physique"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "politique de rétention"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Niveaux de classification"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Principes de gestion"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Conservation et destruction"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Sensibilisation"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Révision"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DATA-PO-004",
+        "title": "Politique de Sauvegarde et Restauration",
+        "version": "2.0",
+        "date": "Octobre 2025",
+        "owner": "Responsable Infrastructure & Cloud"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Azure Blob Storage"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Glacier Deep Archive"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Responsable Infrastructure"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "serveurs de production"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "bases de données applicatives"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "journaux d’opérations"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "plan de reprise spécifique"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "PRA"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Tests de restauration trimestriels"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "validation automatique par script"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "chiffrement AES-256 au repos"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "transfert TLS 1.3"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "perte de disponibilité et d’intégrité des informations"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "NET-PO-001",
+        "title": "Politique de Sécurité Réseau et Périmètre",
+        "owner": "Responsable Infrastructure Sécurité"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Responsable Infrastructure Sécurité"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Fortinet FG-6000"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "FortiManager"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Zeek"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Elastic SIEM"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Cloudflare"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "FortiClient"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Zabbix"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Tenable.io"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Netflow"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "TLS inspection"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "infrastructures réseau internes"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "infrastructures réseau hébergées"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "zones de confiance: Production"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "zones de confiance: Pré-production"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "zones de confiance: Corporate"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "zones de confiance: Invité"
+      }
+    },
+    {
+      "label": "Algorithm",
+      "properties": {
+        "name": "MFA"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "VULN-PO-001",
+        "title": "Politique de Gestion des Vulnérabilités",
+        "owner": "Responsable SOC – Vulnerability Manager"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "CVSS v3.1"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "CERT-FR"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "CISA"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Responsable SOC – Vulnerability Manager"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "DSI"
+      }
+    },
+    {
+      "label": "Algorithm",
+      "properties": {
+        "name": "SAST"
+      }
+    },
+    {
+      "label": "Algorithm",
+      "properties": {
+        "name": "DAST"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "CI/CD"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "IR-PL-001",
+        "title": "Plan de Réponse aux Incidents de Sécurité",
+        "owner": "Responsable CERT"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "coordinateur"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "analyste"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "communication"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "juridique"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Elastic"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "XDR SentinelOne"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "RGPD"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "CNIL"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "clients affectés"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "systèmes"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "sauvegardes"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "incident de sécurité"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "isolement du système impacté"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "suppression du maliciel"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "restauration à partir des sauvegardes"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "RCA"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "notification clients",
+        "value": "72 heures"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "BCP-PO-001",
+        "title": "Politique de Continuité d’Activité et de Reprise Informatique",
+        "owner": "Responsable PRA/PCA"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Azure France Central"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Azure France Sud"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Réplication continue SQL"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Réplication continue Blob"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "DG"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Communication"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "registre BCP"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "Comité Sécurité"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "CRYPTO-PO-001",
+        "title": "Politique de Chiffrement et Gestion des Clés",
+        "owner": "Crypto Officer"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "AES-256"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "TLS 1.3"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "RSA-4096"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "ECC P-384"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Crypto Officer"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "administrateur"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "CryptoOps"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "RGS v2.0"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Rotation annuelle des clés"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Audit annuel des mécanismes cryptographiques"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "TLS"
+      }
+    },
+    {
+      "label": "Algorithm",
+      "properties": {
+        "name": "AES"
+      }
+    },
+    {
+      "label": "Algorithm",
+      "properties": {
+        "name": "RSA"
+      }
+    },
+    {
+      "label": "Algorithm",
+      "properties": {
+        "name": "ECC"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "OPS-PO-002",
+        "title": "Politique de Gestion des Changements",
+        "owner": "Change Manager"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Change Manager"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "CAB"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "responsable technique"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "responsable de domaine"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Standard"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Normal"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Urgent"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Security Sensitive"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "SecuraOps",
+        "activity": "software development"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "DEV-PO-001",
+        "title": "Politique de Développement Sécurisé (SDLC)",
+        "owner": "Lead Developer / Security Champion"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Lead Developer"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Security Champion"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "OWASP Top 10"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Security by Design"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "PDCA cycle"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "analyse de risques applicative"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "revue de conception sécurité"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "librairies validées"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "revues de code pair-à-pair"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "SAST"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "DAST"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "GitHub Advanced Security"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "SonarQube"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "GitGuardian"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Checkov"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Dependabot"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Pipelines CI/CD sécurisés"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "artefacts signés"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "formation annuelle sur les pratiques de codage sécurisé"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "vulnérabilités identifiées"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "plan de remédiation SOC"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "pentest annuel"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "MON-PO-001",
+        "title": "Politique de Journalisation et Supervision",
+        "owner": "SOC Manager"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "Elastic"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Elastic Beats"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "PagerDuty"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "CloudTrail"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "pare-feux"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "IDS"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "serveurs"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "applications"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "cloud Azure"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "endpoints"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "stockage WORM"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "MITRE DeTT&CK"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "SOC Manager"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "analystes SOC"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "comité Sécurité"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "logs"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "journal d’audit"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "VPN-PO-001",
+        "title": "Politique d’Accès Distant et VPN",
+        "owner": "Responsable Infrastructure Sécurité"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "VPN FortiGate"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "MFA Azure Authenticator"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "IPsec AES-256"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "BitLocker"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Interdiction du split tunnel"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Déconnexion automatique après 15 min d’inactivité"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Comptes temporaires valides 7 jours maximum"
+      }
+    },
+    {
+      "label": "Clause",
+      "properties": {
+        "name": "Contrôle de conformité avant connexion"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Postes distants"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "Guide utilisateur bonnes pratiques d’accès à distance"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "ASSET-PO-001",
+        "title": "Politique de Gestion des Actifs",
+        "owner": "Responsable IT Asset Management"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Responsable IT Asset Management"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "service IT"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "matériels"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "logiciels"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "informationnels"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "CMDB GLPI"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "audit trimestriel"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "utilisateurs"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "effacement certifié"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "SecuraOps",
+        "activity": "Gestion des risques fournisseurs et sous-traitants"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "SUP-PO-001",
+        "title": "Politique de Gestion des Fournisseurs et Sous-Traitants",
+        "owner": "Responsable TPRM & Compliance"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "ISO 27036"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "MSA",
+        "title": "Master Service Agreement"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "Questionnaire de sécurité standardisé (SIG Lite)"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "Questionnaire de sécurité standardisé (CAIQ)"
+      }
+    },
+    {
+      "label": "Certification",
+      "properties": {
+        "name": "ISO 27001"
+      }
+    },
+    {
+      "label": "Certification",
+      "properties": {
+        "name": "SOC 2"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "EBIOS TPRM"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "Direction Juridique"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "Service Achats"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "CTI"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "title": "Certificat de destruction"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "Contrat"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "HR-PO-001",
+        "title": "Politique Ressources Humaines et Sécurité",
+        "owner": "DRH"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "DRH"
+      }
+    },
+    {
+      "label": "Agreement",
+      "properties": {
+        "name": "accord de confidentialité (NDA)"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "programme de sensibilisation sécurité"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Formation sécurité annuelle obligatoire"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "entretiens annuels"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "actifs"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Entretien de sortie"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "obligations post-contractuelles"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "AWARE-PO-001",
+        "title": "Politique de Sensibilisation à la Sécurité",
+        "owner": "Responsable Formation Sécurité"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Responsable Formation Sécurité"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Formation d’accueil pour tout nouvel employé"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Modules e-learning annuels obligatoires"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Campagnes trimestrielles de phishing simulé"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Teams"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "taux de réussite"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "taux de participation"
+      }
+    },
+    {
+      "label": "Claim",
+      "properties": {
+        "claim_type": "nombre d’incidents dus à une erreur humaine"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "CERT-PO-001",
+        "title": "Politique de Gestion des Certificats",
+        "owner": "Responsable CryptoOps"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "ANSSI",
+        "activity": "Governance"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "DigiCert"
+      }
+    },
+    {
+      "label": "Supplier",
+      "properties": {
+        "name": "Let’s Encrypt"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "ANSSI RGS v2.0"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Certificats numériques"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Gestion du cycle de vie des certificats"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Renouvellement automatisé des certificats"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Révocation immédiate des certificats compromis"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Archivage des certificats expirés"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "PHY-PO-001",
+        "title": "Politique de Sécurité Physique",
+        "owner": "Responsable Sécurité Générale"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Badge RFID"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Vidéosurveillance"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Registre visiteurs électronique"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Capteurs incendie"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Capteurs environnementaux"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Alimentation secourue"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Climatisation redondante"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "locaux"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "infrastructures"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "équipements"
+      }
+    },
+    {
+      "label": "Clients",
+      "properties": {
+        "name": "clients"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Contrôle d’accès physique"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Double authentification badge + code PIN"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Registre d’accès spécifique"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Plan d’urgence"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Responsable Sécurité Générale"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "personnels habilités"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "techniciens externes"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "SecuraOps",
+        "activity": "Cloud and multi-tenant environment operations"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "CLOUD-PO-001",
+        "title": "Politique Cloud & Environnements Multi-Tenant",
+        "owner": "Responsable Cloud Engineering"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "AWS"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "GCP"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Virtual Network"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Key Vault"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Storage Account"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Azure AD Privileged Identity Management"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Just-In-Time Access"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Defender for Cloud"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "GuardDuty"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "Terraform"
+      }
+    },
+    {
+      "label": "Algorithm",
+      "properties": {
+        "name": "Checkov"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "CSPM"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Responsable Cloud Engineering"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "CTO"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "Snapshots quotidiens et sauvegardes cross-region"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "Dérive de configuration (drift)"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "Shared Responsibility"
+      }
+    },
+    {
+      "label": "Company",
+      "properties": {
+        "name": "SecuraOps",
+        "activity": "Gestion des risques sécurité de l'information"
+      }
+    },
+    {
+      "label": "Document",
+      "properties": {
+        "reference": "RISK-PO-001",
+        "title": "Politique de Gouvernance des Risques Sécurité",
+        "owner": "Responsable GRC"
+      }
+    },
+    {
+      "label": "governance_body",
+      "properties": {
+        "name": "Direction Générale"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "ISO 27005"
+      }
+    },
+    {
+      "label": "Framework",
+      "properties": {
+        "name": "FAIR"
+      }
+    },
+    {
+      "label": "Technology",
+      "properties": {
+        "name": "GRC SecuraOps Cloud"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "MITRE DeTT&CT"
+      }
+    },
+    {
+      "label": "Control",
+      "properties": {
+        "name": "D3FEND"
+      }
+    },
+    {
+      "label": "Asset",
+      "properties": {
+        "type": "Enterprise Security Graph"
+      }
+    },
+    {
+      "label": "Risk",
+      "properties": {
+        "description": "risques liés à la sécurité de l'information"
+      }
+    },
+    {
+      "label": "Roles",
+      "properties": {
+        "title": "Responsable GRC"
+      }
+    },
+    {
+      "label": "Protocol",
+      "properties": {
+        "name": "Processus de gestion des risques"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Unspecified"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DOCUMENT4"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SEC-PO-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "clients européens"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "Comité de Gouvernance Sécurité & Conformité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "Comité de Gouvernance Sécurité et Conformité"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité & Conformité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Directeur Général"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité & Conformité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable de la Sécurité des Systèmes d’Information (RSSI)"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité & Conformité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "responsables de domaine (réseau, applicatif, RH, cloud)"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "SEC-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "Comité de Gouvernance Sécurité & Conformité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Clause de conformité client"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité & Conformité"
+      },
+      "rel_type": "approves",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "RTO"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité de Gouvernance Sécurité & Conformité"
+      },
+      "rel_type": "approves",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "RPO"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "RTO"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "RPO"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable de la Sécurité des Systèmes d’Information (RSSI)"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure Key Vault"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable de la Sécurité des Systèmes d’Information (RSSI)"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Microsoft 365"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable de la Sécurité des Systèmes d’Information (RSSI)"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure Active Directory"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable de la Sécurité des Systèmes d’Information (RSSI)"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Fortinet"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable de la Sécurité des Systèmes d’Information (RSSI)"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Elastic Stack"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable de la Sécurité des Systèmes d’Information (RSSI)"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Suricata"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable de la Sécurité des Systèmes d’Information (RSSI)"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SIEM"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable de la Sécurité des Systèmes d’Information (RSSI)"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "EDR"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "AES-256"
+      },
+      "rel_type": "protects",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "TLS 1.3"
+      },
+      "rel_type": "used_by",
+      "to_label": "Algorithm",
+      "to_key": {
+        "name": "AES-256"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "TLS 1.3"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "vulnérabilités critiques (CVSS ≥ 7,0)"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "vulnérabilités critiques (CVSS ≥ 7,0)"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO / IEC 27001 : 2022"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Plan de Continuité d’Activité (PCA)"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO / IEC 27001 : 2022"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Plan de Reprise Informatique (PRI)"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO / IEC 27001 : 2022"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "accord de confidentialité"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Plan de Continuité d’Activité (PCA)"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Plan de Reprise Informatique (PRI)"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Azure Key Vault"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Microsoft 365"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Azure Active Directory"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Fortinet"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Elastic Stack"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Suricata"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "SIEM"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "EDR"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "DocuSign"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "WORM Azure Blob"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs, équipements réseau, postes de travail, documents, données, logiciels"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "DPO"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Microsoft 365"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "IAM-PO-001"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "IAM-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "environnements clients"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "RSSI"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "DSI"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable IAM"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable IAM"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "DSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable IAM"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable IAM"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure AD"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable IAM"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Identity Manager"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "managers"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "ServiceNow"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SIEM"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Azure AD"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateur"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Identity Manager"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateur"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "MFA"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "consoles d’administration cloud"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "MFA"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "applications SaaS internes"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "ServiceNow"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateur"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Azure AD Logs"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes utilisateur"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "VPN Logs"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "réseaux"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Bastion Logs"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Elastic Stack"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "outils de supervision"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "SIEM"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "outils de supervision"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "break-glass"
+      },
+      "rel_type": "used_by",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable IAM"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "équipe GRC"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "ServiceNow"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "IAM-PO-002"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "IAM-PO-002"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable IAM"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "has_requirement": "Clause",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "longueur minimale des mots de passe"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "has_requirement": "Clause",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "complexité des mots de passe"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "has_requirement": "Clause",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "réutilisation des anciens mots de passe"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "has_requirement": "Clause",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "fréquence de rotation des mots de passe"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "has_requirement": "Clause",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "stockage des mots de passe"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "has_requirement": "Clause",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "gestion des secrets d’API et comptes techniques"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "has_requirement": "Clause",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "signalement de compromission"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "hachage salé des mots de passe"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SHA-512"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "MFA pour accès privilégié"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "MFA"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "gestion des secrets d’API dans Azure Key Vault"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure Key Vault"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "rotation automatisée des secrets via PowerShell"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "PowerShell"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "MFA"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "rotation automatique des mots de passe"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "PowerShell"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "changement obligatoire de mot de passe sous 4 heures en cas de compromission"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "SOC"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "compromission de mot de passe"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "mots de passe"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Azure Key Vault"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "secrets d’API"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Azure Key Vault"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes techniques"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "PowerShell"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "secrets d’API"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "PowerShell"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "comptes techniques"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable IAM"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SHA-512"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable IAM"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure Key Vault"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable IAM"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "PowerShell"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable IAM"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "MFA"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DATA-PO-001"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Niveaux de classification"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Principes de gestion"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Conservation et destruction"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Sensibilisation"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Révision"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Délégué à la Protection des Données (DPO)"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "RSSI"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "CISO"
+      }
+    },
+    {
+      "from_label": "Clause",
+      "from_key": {
+        "name": "Principes de gestion"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "chiffrement fort"
+      }
+    },
+    {
+      "from_label": "Clause",
+      "from_key": {
+        "name": "Conservation et destruction"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "effacement sécurisé (3 passes DoD)"
+      }
+    },
+    {
+      "from_label": "Clause",
+      "from_key": {
+        "name": "Conservation et destruction"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "broyage physique"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Délégué à la Protection des Données (DPO)"
+      },
+      "rel_type": "operates",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "document"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Délégué à la Protection des Données (DPO)"
+      },
+      "rel_type": "operates",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "base de données"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Délégué à la Protection des Données (DPO)"
+      },
+      "rel_type": "operates",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "support physique"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "chiffrement fort"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "données client sensibles"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-004"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs de production"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-004"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "bases de données applicatives"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-004"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "journaux d’opérations"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-004"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "plan de reprise spécifique"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-004"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "PRA"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-004"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Tests de restauration trimestriels"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-004"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "validation automatique par script"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-004"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "chiffrement AES-256 au repos"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-004"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "transfert TLS 1.3"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DATA-PO-004"
+      },
+      "rel_type": "HAS",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "perte de disponibilité et d’intégrité des informations"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "chiffrement AES-256 au repos"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Algorithm",
+      "to_key": {
+        "name": "AES-256"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "transfert TLS 1.3"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "TLS 1.3"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Tests de restauration trimestriels"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Infrastructure"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "validation automatique par script"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Infrastructure"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "RSSI"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Tests de restauration trimestriels"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "chiffrement AES-256 au repos"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "transfert TLS 1.3"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Azure Blob Storage"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs de production"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Azure Blob Storage"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "bases de données applicatives"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Azure Blob Storage"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "journaux d’opérations"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Glacier Deep Archive"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs de production"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Glacier Deep Archive"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "bases de données applicatives"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "AES-256"
+      },
+      "rel_type": "protects",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs de production"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "AES-256"
+      },
+      "rel_type": "protects",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "bases de données applicatives"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "AES-256"
+      },
+      "rel_type": "protects",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "journaux d’opérations"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "perte de disponibilité et d’intégrité des informations"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "serveurs de production"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "perte de disponibilité et d’intégrité des informations"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "bases de données applicatives"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "perte de disponibilité et d’intégrité des informations"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "journaux d’opérations"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "NET-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "owner": "Responsable Infrastructure Sécurité"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "approves",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "NET-PO-001"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "DSI"
+      },
+      "rel_type": "approves",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "NET-PO-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "owner": "Responsable Infrastructure Sécurité"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "owner": "Responsable Infrastructure Sécurité"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "SOC"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Fortinet FG-6000"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "FortiManager"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Suricata"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Zeek"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Elastic SIEM"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Cloudflare"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "FortiClient"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Zabbix"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Tenable.io"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Fortinet FG-6000"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures réseau internes"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Fortinet FG-6000"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures réseau hébergées"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Fortinet FG-6000"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "zones de confiance: Production"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Fortinet FG-6000"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "zones de confiance: Pré-production"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Fortinet FG-6000"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "zones de confiance: Corporate"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Fortinet FG-6000"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "zones de confiance: Invité"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Suricata"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures réseau internes"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Zeek"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures réseau internes"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Elastic SIEM"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures réseau internes"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Cloudflare"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures réseau hébergées"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "Netflow"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Elastic SIEM"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "TLS inspection"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Fortinet FG-6000"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "MFA"
+      },
+      "rel_type": "protects",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures réseau internes"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "DSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "SOC"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "DSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "SOC"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "VULN-PO-001"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "VULN-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable SOC – Vulnerability Manager"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable SOC – Vulnerability Manager"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "DSI"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable SOC – Vulnerability Manager"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Tenable.io"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "SAST"
+      },
+      "rel_type": "used_by",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "CI/CD"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "DAST"
+      },
+      "rel_type": "used_by",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "CI/CD"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "CERT-FR"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "ANSSI"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "CISA"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "CVSS v3.1"
+      },
+      "rel_type": "used_by",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable SOC – Vulnerability Manager"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "IR-PL-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "clients affectés"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "CNIL"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "coordinateur"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "analyste"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "communication"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "juridique"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CNIL"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "coordinateur"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CNIL"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "analyste"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CNIL"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "communication"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CNIL"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "juridique"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CNIL"
+      },
+      "rel_type": "approves",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "notification clients"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "notification clients"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "clients affectés"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "coordinateur"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "EDR"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "coordinateur"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SIEM"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "analyste"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Elastic"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "analyste"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "XDR SentinelOne"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "coordinateur"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "isolement du système impacté"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "analyste"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "suppression du maliciel"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "coordinateur"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "restauration à partir des sauvegardes"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "coordinateur"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "RCA"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "isolement du système impacté"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "EDR"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "EDR"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "SIEM"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Elastic"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "XDR SentinelOne"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "restauration à partir des sauvegardes"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "EDR"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "RGPD"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "incident de sécurité"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "notification clients"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "systèmes"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "BCP-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "RTO"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "BCP-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "RPO"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "Réplication continue SQL"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure France Central"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "Réplication continue SQL"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure France Sud"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "Réplication continue Blob"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure France Central"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "Réplication continue Blob"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure France Sud"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "DG"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "RSSI"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "DSI"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Communication"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "BCP-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "registre BCP"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité Sécurité"
+      },
+      "rel_type": "approves",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "registre BCP"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Crypto Officer"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "AES-256"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "TLS 1.3"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "RSA-4096"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "ECC P-384"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure Key Vault"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SIEM"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Framework",
+      "to_key": {
+        "name": "RGS v2.0"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "ANSSI"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Rotation annuelle des clés"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CRYPTO-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Audit annuel des mécanismes cryptographiques"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "administrateur"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure Key Vault"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "CryptoOps"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure Key Vault"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Crypto Officer"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SIEM"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "AES"
+      },
+      "rel_type": "protects",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "AES-256"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "RSA"
+      },
+      "rel_type": "protects",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "RSA-4096"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "ECC"
+      },
+      "rel_type": "protects",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "ECC P-384"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "TLS"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "TLS 1.3"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Rotation annuelle des clés"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure Key Vault"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Audit annuel des mécanismes cryptographiques"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SIEM"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "RGS v2.0"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Rotation annuelle des clés"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "RGS v2.0"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Audit annuel des mécanismes cryptographiques"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Crypto Officer"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "OPS-PO-002"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "RSSI"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "OPS-PO-002"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "DSI"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CAB"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "responsable technique"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CAB"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "responsable de domaine"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Change Manager"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "responsable technique"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CAB"
+      },
+      "rel_type": "supervise",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Normal"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Change Manager"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "ServiceNow"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "responsable technique"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "ServiceNow"
+      }
+    },
+    {
+      "from_label": "Clause",
+      "from_key": {
+        "name": "Security Sensitive"
+      },
+      "rel_type": "apply_to",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "SOC"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "DEV-PO-001"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DEV-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Lead Developer"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "DEV-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Security Champion"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Security by Design"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "PDCA cycle"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Framework",
+      "to_key": {
+        "name": "OWASP Top 10"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revue de conception sécurité"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "revue de conception sécurité"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Lead Developer"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "revue de conception sécurité"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Security Champion"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues de code pair-à-pair"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "revues de code pair-à-pair"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Lead Developer"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Security by Design"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "librairies validées"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "revues de code pair-à-pair"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SAST"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "revues de code pair-à-pair"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "DAST"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Security by Design"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GitHub Advanced Security"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Security by Design"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "SonarQube"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Security by Design"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GitGuardian"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Security by Design"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Checkov"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Security by Design"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Dependabot"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "artefacts signés"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Pipelines CI/CD sécurisés"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "formation annuelle sur les pratiques de codage sécurisé"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "vulnérabilités identifiées"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Control",
+      "to_key": {
+        "name": "plan de remédiation SOC"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "pentest annuel"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "OWASP Top 10"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Security by Design"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "OWASP Top 10"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revue de conception sécurité"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "OWASP Top 10"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revues de code pair-à-pair"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "RSSI"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Security by Design"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "RSSI"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "revue de conception sécurité"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "RSSI"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "pentest annuel"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Elastic"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "MON-PO-001"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "MON-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "SOC Manager"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC Manager"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Elastic Beats"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC Manager"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Elastic SIEM"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC Manager"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "PagerDuty"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC Manager"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "CloudTrail"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "analystes SOC"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Elastic SIEM"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "analystes SOC"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Elastic Beats"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Elastic SIEM"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "pare-feux"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "IDS"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "serveurs"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "applications"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "cloud Azure"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "endpoints"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "CloudTrail"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Elastic SIEM"
+      },
+      "rel_type": "used_by",
+      "to_label": "Framework",
+      "to_key": {
+        "name": "MITRE DeTT&CTK"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "stockage WORM"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logs"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "analystes SOC"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "journal d’audit"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "Elastic"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "comité Sécurité"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "comité Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "RSSI"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "comité Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "SOC Manager"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "RSSI"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Elastic SIEM"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "VPN-PO-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "SOC"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "VPN-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Interdiction du split tunnel"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "VPN-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Déconnexion automatique après 15 min d’inactivité"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "VPN-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Comptes temporaires valides 7 jours maximum"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "VPN-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clause",
+      "to_key": {
+        "name": "Contrôle de conformité avant connexion"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "VPN FortiGate"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "MFA Azure Authenticator"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "SOC"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "EDR"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "VPN FortiGate"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Postes distants"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "TLS 1.3"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "VPN FortiGate"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "IPsec AES-256"
+      },
+      "rel_type": "used_by",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "VPN FortiGate"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "BitLocker"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Postes distants"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "EDR"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Postes distants"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "RSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Infrastructure Sécurité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "title": "Guide utilisateur bonnes pratiques d’accès à distance"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "ASSET-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable IT Asset Management"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable IT Asset Management"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "CMDB GLPI"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "CMDB GLPI"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "matériels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "CMDB GLPI"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "logiciels"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "CMDB GLPI"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "informationnels"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "service IT"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "CMDB GLPI"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "audit trimestriel"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "CMDB GLPI"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "effacement certifié"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "service IT"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "utilisateurs"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "matériels"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "SUP-PO-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "Direction Juridique"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "Service Achats"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "Contrat"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Direction Juridique"
+      },
+      "rel_type": "supervise",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "Contrat"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Service Achats"
+      },
+      "rel_type": "supervise",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "Contrat"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "SUP-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "title": "Master Service Agreement"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Framework",
+      "to_key": {
+        "name": "ISO 27036"
+      }
+    },
+    {
+      "from_label": "Agreement",
+      "from_key": {
+        "name": "Contrat"
+      },
+      "rel_type": "for",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": ""
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ISO 27036"
+      },
+      "rel_type": "required_by",
+      "to_label": "Document",
+      "to_key": {
+        "title": "Master Service Agreement"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "title": "Questionnaire de sécurité standardisé (SIG Lite)"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SecuraOps"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "title": "Questionnaire de sécurité standardisé (CAIQ)"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SecuraOps"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "EBIOS TPRM"
+      },
+      "rel_type": "required_by",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SecuraOps"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "CTI"
+      },
+      "rel_type": "used_by",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SecuraOps"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "title": "Certificat de destruction"
+      },
+      "rel_type": "HAS",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SecuraOps"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "HR-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Agreement",
+      "to_key": {
+        "name": "accord de confidentialité (NDA)"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "HR-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "programme de sensibilisation sécurité"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "HR-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "Formation sécurité annuelle obligatoire"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "HR-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "entretiens annuels"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "HR-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "Entretien de sortie"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "HR-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "obligations post-contractuelles"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "DRH"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "HR-PO-001"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "RSSI"
+      },
+      "rel_type": "approves",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "HR-PO-001"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "managers"
+      },
+      "rel_type": "supervise",
+      "to_label": "Protocol",
+      "to_key": {
+        "name": "entretiens annuels"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "Entretien de sortie"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "obligations post-contractuelles"
+      }
+    },
+    {
+      "from_label": "Claim",
+      "from_key": {
+        "claim_type": "obligations post-contractuelles"
+      },
+      "rel_type": "Concerns",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "actifs"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "AWARE-PO-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Formation Sécurité"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "AWARE-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "taux de réussite"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "AWARE-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "taux de participation"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "AWARE-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Claim",
+      "to_key": {
+        "claim_type": "nombre d’incidents dus à une erreur humaine"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Formation Sécurité"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Teams"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "Formation d’accueil pour tout nouvel employé"
+      },
+      "rel_type": "used_by",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SecuraOps"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "Modules e-learning annuels obligatoires"
+      },
+      "rel_type": "used_by",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SecuraOps"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "Campagnes trimestrielles de phishing simulé"
+      },
+      "rel_type": "used_by",
+      "to_label": "Company",
+      "to_key": {
+        "name": "SecuraOps"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "CERT-PO-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "HAS",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "DigiCert"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "HAS",
+      "to_label": "Supplier",
+      "to_key": {
+        "name": "Let’s Encrypt"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Gestion du cycle de vie des certificats"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Renouvellement automatisé des certificats"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Révocation immédiate des certificats compromis"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "ANSSI"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Archivage des certificats expirés"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "ANSSI RGS v2.0"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Gestion du cycle de vie des certificats"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Renouvellement automatisé des certificats"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "PowerShell"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Gestion du cycle de vie des certificats"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "PowerShell"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "PowerShell"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Certificats numériques"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Gestion du cycle de vie des certificats"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Certificats numériques"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "PHY-PO-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Clients",
+      "to_key": {
+        "name": "clients"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "locaux"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "équipements"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Contrôle d’accès physique"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Double authentification badge + code PIN"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Registre d’accès spécifique"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Plan d’urgence"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Contrôle d’accès physique"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Badge RFID"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Contrôle d’accès physique"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Vidéosurveillance"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Contrôle d’accès physique"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Registre visiteurs électronique"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Double authentification badge + code PIN"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Badge RFID"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Plan d’urgence"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Capteurs incendie"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Plan d’urgence"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Capteurs environnementaux"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Plan d’urgence"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Alimentation secourue"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Plan d’urgence"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Climatisation redondante"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "personnels habilités"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Badge RFID"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "techniciens externes"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Registre visiteurs électronique"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Sécurité Générale"
+      },
+      "rel_type": "EXECUTES",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Contrôle d’accès physique"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Badge RFID"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "locaux"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Vidéosurveillance"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "locaux"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Capteurs incendie"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Capteurs environnementaux"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Alimentation secourue"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Climatisation redondante"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "infrastructures"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "CLOUD-PO-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "CTO"
+      }
+    },
+    {
+      "from_label": "Document",
+      "from_key": {
+        "reference": "CLOUD-PO-001"
+      },
+      "rel_type": "HAS",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Cloud Engineering"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "RSSI"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Cloud Engineering"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "CTO"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable Cloud Engineering"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "AWS"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GCP"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Virtual Network"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Key Vault"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Storage Account"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure AD Privileged Identity Management"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Just-In-Time Access"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "CloudTrail"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Defender for Cloud"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GuardDuty"
+      }
+    },
+    {
+      "from_label": "Roles",
+      "from_key": {
+        "title": "Responsable Cloud Engineering"
+      },
+      "rel_type": "operates",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Terraform"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Terraform"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Terraform"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "AWS"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "Terraform"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GCP"
+      }
+    },
+    {
+      "from_label": "Algorithm",
+      "from_key": {
+        "name": "Checkov"
+      },
+      "rel_type": "protects",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Terraform"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "CSPM"
+      },
+      "rel_type": "used_by",
+      "to_label": "Algorithm",
+      "to_key": {
+        "name": "Checkov"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "CSPM"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "Dérive de configuration (drift)"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "Dérive de configuration (drift)"
+      },
+      "rel_type": "targeting",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Terraform"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "Shared Responsibility"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "Snapshots quotidiens et sauvegardes cross-region"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Snapshots quotidiens et sauvegardes cross-region"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "Azure"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Snapshots quotidiens et sauvegardes cross-region"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "AWS"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "Snapshots quotidiens et sauvegardes cross-region"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GCP"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "Document",
+      "to_key": {
+        "reference": "RISK-PO-001"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "Comité Sécurité"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "HAS",
+      "to_label": "governance_body",
+      "to_key": {
+        "name": "Direction Générale"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Comité Sécurité"
+      },
+      "rel_type": "supervise",
+      "to_label": "Roles",
+      "to_key": {
+        "title": "Responsable GRC"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Framework",
+      "to_key": {
+        "name": "ISO 27005"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Framework",
+      "to_key": {
+        "name": "EBIOS RM"
+      }
+    },
+    {
+      "from_label": "Company",
+      "from_key": {
+        "name": "SecuraOps"
+      },
+      "rel_type": "has_requirement",
+      "to_label": "Framework",
+      "to_key": {
+        "name": "FAIR"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "FAIR"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "MITRE DeTT&CT"
+      }
+    },
+    {
+      "from_label": "Framework",
+      "from_key": {
+        "name": "FAIR"
+      },
+      "rel_type": "required_by",
+      "to_label": "Control",
+      "to_key": {
+        "name": "D3FEND"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "MITRE DeTT&CT"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GRC SecuraOps Cloud"
+      }
+    },
+    {
+      "from_label": "Control",
+      "from_key": {
+        "name": "D3FEND"
+      },
+      "rel_type": "IMPLEMENTED_BY",
+      "to_label": "Technology",
+      "to_key": {
+        "name": "GRC SecuraOps Cloud"
+      }
+    },
+    {
+      "from_label": "Technology",
+      "from_key": {
+        "name": "GRC SecuraOps Cloud"
+      },
+      "rel_type": "Has_access_to",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Enterprise Security Graph"
+      }
+    },
+    {
+      "from_label": "Protocol",
+      "from_key": {
+        "name": "Processus de gestion des risques"
+      },
+      "rel_type": "mitigates",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "risques liés à la sécurité de l'information"
+      }
+    },
+    {
+      "from_label": "Risk",
+      "from_key": {
+        "description": "risques liés à la sécurité de l'information"
+      },
+      "rel_type": "targeting",
+      "to_label": "Asset",
+      "to_key": {
+        "type": "Enterprise Security Graph"
+      }
+    },
+    {
+      "from_label": "governance_body",
+      "from_key": {
+        "name": "Direction Générale"
+      },
+      "rel_type": "approves",
+      "to_label": "Risk",
+      "to_key": {
+        "description": "risques liés à la sécurité de l'information"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+﻿round,control_id,control_name,slot_key,slot_type,value,answerability,evidence
+1,ACH-01,Suivi sécurité des sous-traitants,critical_suppliers,bool,,unanswerable,Not found in graph
+1,ACH-01,Suivi sécurité des sous-traitants,providers_list_only,bool,,unanswerable,Not found in graph
+1,ACH-01,Suivi sécurité des sous-traitants,security_clauses_subcontracts,bool,,unanswerable,Not found in graph
+1,ACH-01,Suivi sécurité des sous-traitants,tprm_process,bool,,unanswerable,Not found in graph
+1,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,breach_notification,bool,,unanswerable,Not found in graph
+1,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,nda_only,bool,False,answerable,HR-PO-001 mentions confidentiality agreements (NDA) but other security clauses are present in supplier-related contexts.
+1,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,right_to_audit,bool,,unanswerable,Not found in graph
+1,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,security_clauses,bool,,unanswerable,Not found in graph
+1,DATA-01,Chiffrement en transit (TLS),hsts,bool,,unanswerable,Not found in graph
+1,DATA-01,Chiffrement en transit (TLS),pfs,bool,True,answerable,"ECC P-384 and RSA-4096 are used for key exchange, implying Perfect Forward Secrecy (PFS)."
+1,DATA-01,Chiffrement en transit (TLS),tls_min_version,enum,1.3,answerable,"TLS 1.3 is explicitly mentioned for backup transfer, VPN, and communications."
+1,DATA-02,Chiffrement au repos,algorithms,list[string],"['AES-256', 'SHA-512', 'RSA-4096', 'ECC P-384']",answerable,"AES-256, SHA-512, RSA-4096, and ECC P-384 are explicitly mentioned for encryption at rest or key exchange."
+1,DATA-02,Chiffrement au repos,enc_present,bool,True,answerable,"AES-256 is used for encryption at rest, and BitLocker is mentioned for workstation encryption."
+1,DATA-02,Chiffrement au repos,key_rotation,bool,True,answerable,Key Rotation control in CRYPTO-PO-001 specifies annual rotation or immediate rotation in case of administrator departure.
+2,ACH-01,Suivi sécurité des sous-traitants,critical_suppliers,bool,False,answerable,No explicit list or register of critical/high-risk suppliers found in the graph.
+2,ACH-01,Suivi sécurité des sous-traitants,providers_list_only,bool,False,answerable,No pre-approved list of providers or whitelisted vendors found in the graph.
+2,ACH-01,Suivi sécurité des sous-traitants,security_clauses_subcontracts,bool,False,answerable,No explicit information-security clauses in subcontractor agreements found in the graph.
+2,ACH-01,Suivi sécurité des sous-traitants,tprm_process,bool,False,answerable,"No formal, documented third-party risk management (TPRM) process found in the graph."
+2,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,breach_notification,bool,False,answerable,No requirement for subcontractors to notify of security incidents or data breaches found in the graph.
+2,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,nda_only,bool,,unanswerable,No information about contractual protections beyond NDAs found in the graph.
+2,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,right_to_audit,bool,False,answerable,No contractual right to audit subcontractors found in the graph.
+2,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,security_clauses,bool,False,answerable,No explicit information-security clauses in contracts with subcontractors found in the graph.
+2,DATA-01,Chiffrement en transit (TLS),hsts,bool,False,answerable,No mention of HTTP Strict Transport Security (HSTS) enforcement found in the graph.
+2,DATA-01,Chiffrement en transit (TLS),pfs,bool,True,answerable,"ECC P-384 and RSA-4096 are mentioned for key exchange, implying Perfect Forward Secrecy (PFS)."
+2,DATA-01,Chiffrement en transit (TLS),tls_min_version,enum,1.3,answerable,TLS 1.3 is explicitly mentioned for backup transfer and communications.
+2,DATA-02,Chiffrement au repos,algorithms,list[string],['AES-256'],answerable,AES-256 is explicitly mentioned for encryption at rest in multiple documents.
+2,DATA-02,Chiffrement au repos,enc_present,bool,True,answerable,AES-256 and BitLocker are mentioned for encryption at rest.
+2,DATA-02,Chiffrement au repos,key_rotation,bool,True,answerable,Control 'Key Rotation' specifies annual rotation or immediate rotation in case of administrator departure.
+3,ACH-01,Suivi sécurité des sous-traitants,critical_suppliers,bool,,unanswerable,Not found in graph
+3,ACH-01,Suivi sécurité des sous-traitants,providers_list_only,bool,,unanswerable,Not found in graph
+3,ACH-01,Suivi sécurité des sous-traitants,security_clauses_subcontracts,bool,,unanswerable,Not found in graph
+3,ACH-01,Suivi sécurité des sous-traitants,tprm_process,bool,,unanswerable,Not found in graph
+3,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,breach_notification,bool,,unanswerable,Not found in graph
+3,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,nda_only,bool,,unanswerable,Not found in graph
+3,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,right_to_audit,bool,,unanswerable,Not found in graph
+3,ACH-02,Clauses sécurité dans les contrats avec les sous-traitants,security_clauses,bool,,unanswerable,Not found in graph
+3,DATA-01,Chiffrement en transit (TLS),hsts,bool,False,answerable,No explicit mention of HSTS enforcement in the graph
+3,DATA-01,Chiffrement en transit (TLS),pfs,bool,,unanswerable,No explicit mention of Perfect Forward Secrecy (PFS) enforcement in the graph
+3,DATA-01,Chiffrement en transit (TLS),tls_min_version,enum,1.3,answerable,Protocol TLS 1.3 is explicitly mentioned for backup transfer and communications
+3,DATA-02,Chiffrement au repos,algorithms,list[string],['AES-256'],answerable,Algorithm AES-256 is explicitly mentioned for encryption at rest
+3,DATA-02,Chiffrement au repos,enc_present,bool,True,answerable,"Encryption at rest is explicitly mentioned (e.g., AES-256, BitLocker)"
+3,DATA-02,Chiffrement au repos,key_rotation,bool,True,answerable,Control 'Key Rotation' explicitly requires annual rotation or immediate rotation in case of administrator departure
